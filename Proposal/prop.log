@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.7)  9 SEP 2026 10:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.7)  9 SEP 2026 13:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Tosin Bea/Documents/Part II Files/prop.tex"
-(c:/Users/Tosin Bea/Documents/Part II Files/prop.tex
+**"c:/Users/Tosin Bea/Documents/Part II Files/Proposal/prop.tex"
+(c:/Users/Tosin Bea/Documents/Part II Files/Proposal/prop.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
 (c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -47,19 +47,36 @@ LaTeX Font Info:    ... okay on input line 3.
 
 Chapter 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 5.
+
+Overfull \hbox (10.79723pt too wide) in paragraph at lines 12--15
+\OT1/cmr/m/n/12 Multiple scle-ro-sis is a het-ero-ge-neous, neu-ro-log-i-cal au-toim-mune dis-or-der wherein
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
 
 
 [1
 
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-[2] (./prop.aux)
+[2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[3] (./prop.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-14>
@@ -67,17 +84,17 @@ L3 programming layer <2025-04-14>
  ) 
 Here is how much of TeX's memory you used:
  475 strings out of 469608
- 8525 string characters out of 5474780
- 428186 words of memory out of 5000000
+ 8552 string characters out of 5474780
+ 430186 words of memory out of 5000000
  27378 multiletter control sequences out of 15000+600000
  631417 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,38p,394b,150s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 35i,6n,38p,721b,154s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on prop.pdf (2 pages, 40961 bytes).
+Output written on prop.pdf (3 pages, 46318 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
+ 30 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
