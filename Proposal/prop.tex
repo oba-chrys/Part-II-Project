@@ -32,33 +32,90 @@ The project is composed of two main goals:
 \item Constructing a Multiplex Graph Attention Network (mGAT) which takes the GGCNs as input and outputs a binary classification for MS with a structure-blind multilayer perceptron (MLP) model and a vanilla Graph Convolution Network (GCN) to serve as baseline comparisons\parencite{luzhnicaGraphClassificationNetworks2019}.
 \end{itemize}
 \section{Starting Point}
-I have some experience with machine learning beyond the Computer Science Tripos Part IA and Part IB, however this is primarily related to the baseline models for this project (MLP) and models unrelated to this project. 
+I have some experience with machine learning beyond the Computer Science Tripos, however I was  unfamiliar with graph attention networks, so I have done some preliminary reading. In particular, I have read [1-6] however further reading will be required as noted in the timetable. 
 
-\section{Success Criterion}
+\section{Success Criterion and Evaluation}
+The project will be considered a success if the following criteria are met:
+
+\begin{itemize}
+    \item A structure blind MLP, mGAT and vanilla GCN are designed and implemented for graph classification 
+    \item Real-world transcriptomic data is used to train the model
+    \item The evaluation framework is carried out on the models to assess their performance
+\end{itemize}
+
+The evaluation framework for the project will use a confusion matrix, allowing for 4 classification metrics to be calculated: accuracy, precision, recall and a recall-oriented F-score given that missing a diagnosis of MS may delay medical intervention. These metrics are defined as, given the true positives (TP), true negatives (TN), false positives (FP) and false negatives (FN) from the confusion matrix, as:
+\begin{align*}
+    Precision &= \frac{TP}{TP+FP} \\
+    Recall &= \frac{TP}{TP+FN} \\
+    F_\beta-score &=(1+ \beta^2) \frac{Precision \times Recall}{(\beta^2 \times Precision)+Recall} \\
+    Accuracy &= \frac{TP+TN}{TP+TN+FP+FN}
+\end{align*}
+
 \section{Extensions and Further Work}
-As extension work, the aim is to implement a multi-omic approach to classification with the incorporation of scATAC-seq data with an intermediate fusion approach. 
-
+If the success criteria are met, I will attempt to implement the following extensions: 
+\begin{itemize}
+    \item \textbf{EX1}: Incorporate epigenomic (snATAC-seq) data to produce a multi-omic classification model. \\
+\item\textbf{EX2}: Implement a multi-class classification model using transcriptomic and epigenomic data from Alzheimers' patients and evaluate with a new evaluation framework.\\
+\item\textbf{EX3}: Improve the explainability of the model by evaluating feature importance.
+\end{itemize}
 \section{Work Plan}
 \textbf{Michaelmas Term} \\ 
 \begin{itemize}
     \item
-     \textbf{Weeks 1-2 (6/10-19/10)} \\
-    Submit proposal drafts
-    \item \textbf{Weeks 3-4 (20/10-2/11)} \\
-    \item \textbf{Weeks 5-6 (3/11-16/11)} \\
-    \item \textbf{Weeks 7-8 (17/11-30/11)} \\
+    \textbf{Weeks 1-2 (13/10-26/10)} \\
+    \begin{itemize}
+        \item Background reading on mGATs, GCNs and the hdWGCNA package and set up code repository.
+        \item Milestone: Produce a document explaining the theory about these model and the reason for their inclusion in the project.
+    \end{itemize}
+    \item \textbf{Weeks 3-4 (27/10-9/11)} \\
+    \begin{itemize}
+        \item Read up on PyTorch and decide on the network architecture for the three models.
+        \item Milestone: Have diagrams for each network architecture and produce basic ML examples in PyTorch.
+    \end{itemize}
+    \item \textbf{Weeks 5-6 (10/11-23/11)} \\
+    \begin{itemize}
+        \item Process the snRNA-seq dataset using the py-hdWGCNA framework and split data into training, validation and testing datasets at a patient level
+        \item Milestone: The datasets should be ready for training 
+    \end{itemize}
+    \item \textbf{Weeks 7-8 (24/11-7/12)} \\
+    \begin{itemize}
+        \item Buffer period
+    \end{itemize}
+\end{itemize}
+\textbf{Winter Break} \\ 
+\begin{itemize}
+    \item \textbf{Weeks 9-10 (8/12-21/12)} \\
+    \begin{itemize}
+        \item 
+    \end{itemize}
+    \item \textbf{Weeks 11-12 (22/12-4/1)} \\
+    \item \textbf{Weeks 13-14 (5/1-18/1)} \\
+\end{itemize}
+\textbf{Lent Term}
+\begin{itemize}
+    \item \textbf{Weeks 15-16 (19/1-1/2)} \\
+    \item \textbf{Weeks 17-18 (2/2-15/2)} \\
+    Friday 5 February 12pm: Progress Report Presentation
+    \item \textbf{Weeks 19-20 (16/2-1/3)} \\
+    Friday 26 February: Progress Report Presentations
+    \item \textbf{Weeks 21-22 (2/3-15/3)} \\
+\end{itemize}
+\textbf{Easter Break} \\ 
+\begin{itemize}
+    \item \textbf{Weeks 23-24 (16/3-29/3)} \\
+    \item \textbf{Weeks 25-26 (30/3-12/4)} \\
+    \item \textbf{Weeks 27-28 (13/4-26/4)} \\
+\end{itemize}
+
+\textbf{Lent Term}
+\begin{itemize}
+    \item \textbf{Weeks 15-16 (27/4-9/5)} \\
+    Friday 11 June 12pm: Dissertation Deadline 
 \end{itemize}
 \section{Resource Declaration}
 
+I will be using my personal laptop, a 2024 Dell Inspiron 16 2-in-1, with 16GB memory and a 1TB SSD for software development. As a backup, I will use my secondary personal laptop with an external 1TB storage. I will continuously backup my code and dissertation with Git version control. I accept full responsibility for this machine and I have made contingency plans to protect myself against hardware and/or software failure. In terms of software, I will use Python including the PyTorch and py-hdWGCNA libraries. 
 
-\vspace{2em}
-I will be using my personal laptop, a 2024 Dell Inspiron 16 2-in-1, with 16GB memory and a 1TB SSD for software development. As a backup, I will use my secondary personal laptop with an external 1TB storage. I will continuously backup my code and dissertation with Git version control. I accept full responsibility for this machine and I have made contingency plans to protect myself against hardware and/or software failure.
-
-In terms of software, I will use:
-\begin{itemize}
-    \item hdWGCNA R package
-    \item 
-\end{itemize}
 The project also requires the use of biological datasets for training data. These datasets have been taken from https://zenodo.org/records which are publicly available to anyone.
 
 \printbibliography
