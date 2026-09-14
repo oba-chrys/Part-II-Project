@@ -1,0 +1,12 @@
+GANs
+
+- GNNs were introduced in 2005/9 as a generalisation of RNNs dealing with a more general class of graphs. They are composed of a 
+
+Graph attention layer 
+- input is a set of node features h $\vec{h}_1,\dots,\vec{h}_N, \vec{h}_i\in \mathbb{R}^F$ where N is the number of nodes and F is the number of features for each node. The layer outputs a new set of node features, potentially of a different cardinality. 
+
+To have enough expressive power to transform the input features into higher-level features, at least one learnable linear transformation is required, parameterised by weight matrix $W\in \mathbb{R}^{F'\times F}$ and applied to every node. 
+
+Self attention is then performed, the shared attentional mechanism $a: \mathbb{R}^{F'}\times \mathbb{R}^{F'} \to \mathbb{R}$ is used to compute attention coefficients: $e_{ij}=a(W\vec{h}_{i},W\vec{h}_j)$ indicating the importance of node j's features to node i. 
+
+Masked attention is used to center the graphical nature of the problem by only computing the coefficients for nodes in node i's neighbourhood.  The coefficients are normalised bia the softmax function; $\alpha_{ij}=softmax_j(e_{ij})=\frac{exp(e_{ij})}{\sum_{k \in \mathcal{N}_i} exp(e_{ik})}$
