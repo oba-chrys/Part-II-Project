@@ -1,6 +1,9 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{Project.bib}
+\usepackage{parskip}
 \setlength{\emergencystretch}{3em}
 \begin{document}
 \chapter{Project Proposal}
@@ -14,26 +17,20 @@ Project Checkers & \bf Professor Pietro Lio' \\
 \end{tabular}
 \section{Introduction and Description}
 
-Multiple sclerosis is a heterogeneous, neurological autoimmune disorder wherein the immune system attacks the myelin in the central nervous system (CNS). Myelin is a component of the protective cover of axons which enable messages to be communicated around the body. 
-When the myelin becomes damaged (demyelination), the efficiency of message passing is decreased -  the body may be able to repair damaged areas (lesions) to an extent (remyelination), however repeated relapses can damage oligodendrocytes, leaving them unable to produce more myelin. When the axons are left unprotected, they are more vulnerable to damage and can die. Although damage can then be somewhat mitigated by re-routing messages using undamaged nerve cells (plasticity) the damage eventually becomes too large to compensate resulting in progressive neurodegeneration. \\
+Multiple sclerosis is a polygenic, complex autoimmune disorder where the immune system attacks myelin, the protective cover of nerve cells (axons) in the central nervous system (CNS). Although damage can  be  mitigated to an extent by the re-routing of messages using undamaged nerve cells (plasticity), the damage eventually becomes too large to compensate resulting in progressive neurodegeneration.
 
+Gene expression is the process outlined by the central dogma of molecular biology: DNA is transcribed into RNA, and RNA is translated into functional products. The measure of how much a gene is expressed at a given time is referred to as its gene expression level, and the analysis of differential expression levels when comparing healthy people and diagnosed patients can aid in the development of disease signatures based on changes in gene activity. Advanced, high-throughput technologies for studying gene expression, such as single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq), allow gene expression to be measured at the level of individual cells or nuclei, enabling the heterogeneity of cell populations to be explored.  Studies have utilised snRNA-seq data in clustering distinct  MS sub-groups \parencite{macnairSingleNucleiRNAseq2022} providing a basis for use in future individualised treatment and prediction.
 
-Gene expression is the process outlined by the central dogma of molecular biology: DNA is transcribed into RNA, and RNA is translated into functional products. The measure of how much a gene is expressed at a given time is referred to as its gene expression level. Advanced, high-throughput technologies for studying gene expression, such as single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq), allow gene expression to be measured at the level of individual cells or nuclei. This enables the heterogeneity of cell populations to be captured. \\
+Given that the complexity of biological networks in higher organisms  primarily arises from dynamic gene interactions as opposed to the size of the genome (C-value paradox), analysing gene dynamics offers a more informative framework for understanding biological systems. Gene-gene co-expression networks (GGCNs) are typically presented as undirected graphs where nodes are genes and the presence of edges depends on co-expression values calculated from gene expression data.\parencite{vandamGeneCoexpressionAnalysis2017} These networks can be used to  identify the functional status of genes from a systematic perspective, which can in turn inform the discovery of gene-disease associations through guilt-by-association analyses.
 
+Graph neural networks (GNNs) have commonly been used for tasks like graph classification, node classification and link prediction.\parencite{sewellGNNsNetworkClassification2025} Given a graph $G(V,E)$  as input in the form of a node feature matrix ($H:  \mathbb{R}^{N \times F}$),  GNNs produce new node embeddings that capture the node features, and the learnt embeddings can be used for graph classification. Graph Attention Networks (GATs) introduce a masked attention mechanism which take the neighbourhood of a node into account in computing the updated features for a node\parencite{velickovicGraphAttentionNetworks2017} - previous works have successfully applied these networks to disease prediction\parencite{ravindraDiseaseStatePrediction2020}, providing precedent for its use in the project.
 
-Given that the complexity of biological networks in higher organisms arises primarily from dynamic gene interactions as opposed to the size of the genome (C-value paradox), analysing gene dynamics offers a more informative framework for understanding biological systems. Gene--gene co-expression networks are typically presented as undirected graphs where nodes are genes and the presence of edges depends on co-expression values calculated from gene expression data. These networks can be used to identify clusters of co-expressed genes (modules) and conduct guilt-by-association analyses.  \\
+The project is composed of two main goals:
+\begin{itemize}
+    \item Using the hdWGCNA framework to construct multi-layer co-expression networks from snRNA-seq gene-expression data
 
-A graph G(V,E) consists of a set of nodes V and a set of edges E such that $(u,v) \in E \implies u,v \in V, |V| = N$. Graph neural networks (GNNs) take graphs as input in the form of a node feature matrix ($H:  \mathbb{R}^{N \times F}$)  and produce new node embeddings that capture the node features. Graph Attention Networks (GATs) introduce a masked attention mechanism which take the neighbourhood of a node into account in computing the updated features for a node. Specifically for the node embedding $h_i^{(l)}$ of layer l, to compute $h_{i}^{(l+1)}$:
-\begin{align*}
-    z_{i}^{(l)} &= W^{(l)}h_i^{(l)} \\
-    c_{ij}^{(l)} &= LeakyReLU(\psi(z_i^{(l)},z_j^{(l)})) \\ 
-    \alpha_{ij}^{(l)} &= \frac{exp(c_ij)}{\sum_{k \in \mathcal{N}(i)} exp(c_{ik}^{(l)})} \\
-    h_i^{(l+1)} &= \sigma(\sum_{j \in \mathcal{N}(i)}\alpha_{ij}z_j^{(l)})
-\end{align*}
- where $\psi: \mathbb{R}^{F^{(l+1)}} \times \mathbb{R}^{F^{(l+1)}}\to \mathbb{R}$ is the attention mechanism, $\sigma: \mathbb{R} \to \mathbb{R}$ is the activation function and $W^{(l)}: \mathbb{R}^{F^{(l+1)}\times F^{(l)}}$ is a learnable weight matrix. Multi-head attention may be employed to stabilise the learning process, and the graph embeddings learnt can then be used for classification.  \\
-
-The aim of this project is composed of two main goals: using the hdWGCNA framework to construct multi-layer co-expression networks from snRNA-seq gene-expression data and constructing a Multiplex Graph Attention Network (mGAT) which takes the co-expression networks as input and outputs a binary classification for MS with an MLP classification model to serve as a baseline comparison. 
-
+\item Constructing a Multiplex Graph Attention Network (mGAT) which takes the GGCNs as input and outputs a binary classification for MS with a structure-blind multilayer perceptron (MLP) model and a vanilla Graph Convolution Network (GCN) to serve as baseline comparisons\parencite{luzhnicaGraphClassificationNetworks2019}.
+\end{itemize}
 \section{Starting Point}
 I have some experience with machine learning beyond the Computer Science Tripos Part IA and Part IB, however this is primarily related to the baseline models for this project (MLP) and models unrelated to this project. 
 
@@ -63,4 +60,6 @@ In terms of software, I will use:
     \item 
 \end{itemize}
 The project also requires the use of biological datasets for training data. These datasets have been taken from https://zenodo.org/records which are publicly available to anyone.
+
+\printbibliography
 \end{document}

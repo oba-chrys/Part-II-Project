@@ -1,0 +1,481 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{luzhnicaGraphClassificationNetworks2019}{online}{}{}
+      \name{author}{3}{}{%
+        {{hash=f9edf51606c840d83b1a609f48184d2a}{%
+           family={Luzhnica},
+           familyi={L\bibinitperiod},
+           given={Enxhell},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0098a89002475371735d012509452dd4}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=428d424e2bc446d7420e2cf047380cf0}{%
+           family={Lio},
+           familyi={L\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=8b8143845e0633c2ddaaebdf9aab82de}{%
+           family={{Apollo-University Of Cambridge Repository}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{656be51eac44ad1b542a2608009e9c6f}
+      \strng{fullhash}{656be51eac44ad1b542a2608009e9c6f}
+      \strng{fullhashraw}{656be51eac44ad1b542a2608009e9c6f}
+      \strng{bibnamehash}{656be51eac44ad1b542a2608009e9c6f}
+      \strng{authorbibnamehash}{656be51eac44ad1b542a2608009e9c6f}
+      \strng{authornamehash}{656be51eac44ad1b542a2608009e9c6f}
+      \strng{authorfullhash}{656be51eac44ad1b542a2608009e9c6f}
+      \strng{authorfullhashraw}{656be51eac44ad1b542a2608009e9c6f}
+      \strng{nameabibnamehash}{8b8143845e0633c2ddaaebdf9aab82de}
+      \strng{nameanamehash}{8b8143845e0633c2ddaaebdf9aab82de}
+      \strng{nameafullhash}{8b8143845e0633c2ddaaebdf9aab82de}
+      \strng{nameafullhashraw}{8b8143845e0633c2ddaaebdf9aab82de}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Graph classification receives a great deal of attention from the non-Euclidean machine learning community. Recent advances in graph coarsening have enabled the training of deeper networks and produced new state-of-the-art results in many benchmark tasks. We examine how these architectures train and find that performance is highly-sensitive to initialisation and depends strongly on jumping-knowledge structures. We then show that, despite the great complexity of these models, competitive performance is achieved by the simplest of models -- structure-blind MLP, single-layer GCN and fixed-weight GCN -- and propose these be included as baselines in future.}
+      \field{day}{29}
+      \field{eprinttype}{Apollo - University of Cambridge Repository}
+      \field{month}{5}
+      \field{nameatype}{collaborator}
+      \field{pubstate}{prepublished}
+      \field{title}{On {{Graph Classification Networks}}, {{Datasets}} and {{Baselines}}}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.17863/CAM.40372
+      \endverb
+      \verb{urlraw}
+      \verb https://www.repository.cam.ac.uk/handle/1810/293222
+      \endverb
+      \verb{url}
+      \verb https://www.repository.cam.ac.uk/handle/1810/293222
+      \endverb
+      \keyw{cs.LG,stat.ML}
+    \endentry
+    \entry{macnairSingleNucleiRNAseq2022}{online}{}{}
+      \name{author}{22}{}{%
+        {{hash=8f9128d658ef4e53bd817fdb79a006ff}{%
+           family={Macnair},
+           familyi={M\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3f7e0118563d5dc6579ebc473ff7cf01}{%
+           family={Calini},
+           familyi={C\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=512ef1755f097767b15810ce046b9c5d}{%
+           family={Agirre},
+           familyi={A\bibinitperiod},
+           given={Eneritz},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7d50ea0760a8becebe73de77fbbf6d8b}{%
+           family={Bryois},
+           familyi={B\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod}}}%
+        {{hash=408e757b930b7facceac76544750d25b}{%
+           family={Jäkel},
+           familyi={J\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=bd1131448d00ac1e38c1d2af54c74425}{%
+           family={Kukanja},
+           familyi={K\bibinitperiod},
+           given={Petra},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cb2a5ec208b877a8025535e146ee1010}{%
+           family={Stokar},
+           familyi={S\bibinitperiod},
+           given={Nadine},
+           giveni={N\bibinitperiod}}}%
+        {{hash=82d2c9f80c23731504fab2db0c100727}{%
+           family={Ott},
+           familyi={O\bibinitperiod},
+           given={Virginie},
+           giveni={V\bibinitperiod}}}%
+        {{hash=f5da51cc613f61c8857a728284702ab1}{%
+           family={Foo},
+           familyi={F\bibinitperiod},
+           given={Lynette\bibnamedelima C.},
+           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=27d7028124b09399878dffd56d1e4003}{%
+           family={Collin},
+           familyi={C\bibinitperiod},
+           given={Ludovic},
+           giveni={L\bibinitperiod}}}%
+        {{hash=a7bcd136987839e13f05f74606122ee0}{%
+           family={Schippling},
+           familyi={S\bibinitperiod},
+           given={Sven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=385e025b575321405d614226cc260a4b}{%
+           family={Urich},
+           familyi={U\bibinitperiod},
+           given={Eduard},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8bb7b78cffc791fc8e8ca88cb7c08869}{%
+           family={Nutma},
+           familyi={N\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b5e0839b11b8a9760956fc620f64cbe0}{%
+           family={Marzin},
+           familyi={M\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e938977e0a512f16fa070bbf48c93017}{%
+           family={Amor},
+           familyi={A\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77e815e9e0041191f4f81e3807bc7435}{%
+           family={Magliozzi},
+           familyi={M\bibinitperiod},
+           given={Roberta},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e0b39a54a0a252a270349e4ed5ff5348}{%
+           family={Heidari},
+           familyi={H\bibinitperiod},
+           given={Elyas},
+           giveni={E\bibinitperiod}}}%
+        {{hash=05f73087e45d1c1dceaa2a114bf70712}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{useprefix=true,hash=f8717f903ebe53eb85679f1db56ce180}{%
+           family={Constant},
+           familyi={C\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           prefix={ffrench-},
+           prefixi={f\bibinitperiod}}}%
+        {{hash=ea0ecebe5670edfa22ff8bbef85b2c66}{%
+           family={Castelo-Branco},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={Gonçalo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2fe98219526fa2b80ae6b890f789c84d}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa75de5dd104d7b024a877a652dfe234}{%
+           family={Malhotra},
+           familyi={M\bibinitperiod},
+           given={Dheeraj},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{60ea6faf0511a80daf9b2ed7e8068728}
+      \strng{fullhash}{1c72e83afda3aafb10264176d94b0da0}
+      \strng{fullhashraw}{1c72e83afda3aafb10264176d94b0da0}
+      \strng{bibnamehash}{60ea6faf0511a80daf9b2ed7e8068728}
+      \strng{authorbibnamehash}{60ea6faf0511a80daf9b2ed7e8068728}
+      \strng{authornamehash}{60ea6faf0511a80daf9b2ed7e8068728}
+      \strng{authorfullhash}{1c72e83afda3aafb10264176d94b0da0}
+      \strng{authorfullhashraw}{1c72e83afda3aafb10264176d94b0da0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The lack of understanding of the cellular and molecular basis of clinical and genetic heterogeneity in progressive multiple sclerosis (MS) has hindered the search for new effective therapies. Here, to address this gap, we analysed 632,000 single nuclei RNAseq profiles of 156 brain tissue samples, comprising white matter (WM) lesions, normal appearing WM, grey matter (GM) lesions and normal appearing GM from 54 MS patients and 26 controls. We observed the expected changes in overall neuronal and glial numbers previously described within the classical lesion subtypes. We found highly cell type-specific gene expression changes in MS tissue, with distinct differences between GM and WM areas, confirming different pathologies. However, surprisingly, we did not observe distinct gene expression signatures for the classical different WM lesion types, rather a continuum of change. This indicates that classical lesion characterization better reflects changes in cell abundance than changes in cell type gene expression, and indicates a global disease effect. Furthermore, the major biological determinants of variability in gene expression in MS WM samples relate to individual patient effects, rather than to lesion types or other metadata. We identify four subgroups of MS patients with distinct WM glial gene expression signatures and patterns of oligodendrocyte stress and/or maturation, suggestive of engagement of different pathological processes, with an additional more variable regenerative astrocyte signature. The discovery of these patterns, which were also found in an independent MS patient cohort, provides a framework to use molecular biomarkers to stratify patients for optimal therapeutic approaches for progressive MS, significantly advances our mechanistic understanding of progressive MS, and highlights the need for precision-medicine approaches to address heterogeneity among MS patients.}
+      \field{day}{9}
+      \field{eprinttype}{Neuroscience}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{pubstate}{prepublished}
+      \field{title}{Single Nuclei {{RNAseq}} Stratifies Multiple Sclerosis Patients into Distinct White Matter Glial Responses}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1101/2022.04.06.487263
+      \endverb
+      \verb{file}
+      \verb C:\Users\Tosin Bea\Zotero\storage\2AZ5I7JS\Macnair et al. - 2022 - Single nuclei RNAseq stratifies multiple sclerosis patients into distinct white matter glial respons.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://biorxiv.org/lookup/doi/10.1101/2022.04.06.487263
+      \endverb
+      \verb{url}
+      \verb http://biorxiv.org/lookup/doi/10.1101/2022.04.06.487263
+      \endverb
+    \endentry
+    \entry{ravindraDiseaseStatePrediction2020}{online}{}{}
+      \name{author}{5}{}{%
+        {{hash=4cfa122cf58b13c17514d6a88d5d852d}{%
+           family={Ravindra},
+           familyi={R\bibinitperiod},
+           given={Neal\bibnamedelima G.},
+           giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=da512a528f04329614bba01369abd6b2}{%
+           family={Sehanobish},
+           familyi={S\bibinitperiod},
+           given={Arijit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7b068f7457b7084518d1abae63f7bca9}{%
+           family={Pappalardo},
+           familyi={P\bibinitperiod},
+           given={Jenna\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8c5ddca9a5d6c1b8ad90a56b4764b928}{%
+           family={Hafler},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{useprefix=true,hash=99fc9da12a540b58aa4ceee7467504ca}{%
+           family={Dijk},
+           familyi={D\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e2f2a797e949057ac62169cd339015f}
+      \strng{fullhash}{f140631f5fafad6ebec001110ddbb192}
+      \strng{fullhashraw}{f140631f5fafad6ebec001110ddbb192}
+      \strng{bibnamehash}{1e2f2a797e949057ac62169cd339015f}
+      \strng{authorbibnamehash}{1e2f2a797e949057ac62169cd339015f}
+      \strng{authornamehash}{1e2f2a797e949057ac62169cd339015f}
+      \strng{authorfullhash}{f140631f5fafad6ebec001110ddbb192}
+      \strng{authorfullhashraw}{f140631f5fafad6ebec001110ddbb192}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Single-cell RNA sequencing (scRNA-seq) has revolutionized biological discovery, providing an unbiased picture of cellular heterogeneity in tissues. While scRNA-seq has been used extensively to provide insight into both healthy systems and diseases, it has not been used for disease prediction or diagnostics. Graph Attention Networks (GAT) have proven to be versatile for a wide range of tasks by learning from both original features and graph structures. Here we present a graph attention model for predicting disease state from single-cell data on a large dataset of Multiple Sclerosis (MS) patients. MS is a disease of the central nervous system that can be difficult to diagnose. We train our model on single-cell data obtained from blood and cerebrospinal fluid (CSF) for a cohort of seven MS patients and six healthy adults (HA), resulting in 66,667 individual cells. We achieve 92 \% accuracy in predicting MS, outperforming other state-of-the-art methods such as a graph convolutional network and a random forest classifier. Further, we use the learned graph attention model to get insight into the features (cell types and genes) that are important for this prediction. The graph attention model also allow us to infer a new feature space for the cells that emphasizes the differences between the two conditions. Finally we use the attention weights to learn a new low-dimensional embedding that can be visualized. To the best of our knowledge, this is the first effort to use graph attention, and deep learning in general, to predict disease state from single-cell data. We envision applying this method to single-cell data for other diseases.}
+      \field{pubstate}{prepublished}
+      \field{title}{Disease {{State Prediction From Single-Cell Data Using Graph Attention Networks}}}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{version}{2}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2002.07128
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2002.07128
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2002.07128
+      \endverb
+      \keyw{FOS: Biological sciences,FOS: Computer and information sciences,Genomics (q-bio.GN),J.3; I.2.6,Machine Learning (cs.LG),Machine Learning (stat.ML)}
+    \endentry
+    \entry{sewellGNNsNetworkClassification2025}{dataset}{}{}
+      \name{author}{1}{}{%
+        {{hash=80c7f741b171853eb6abb36891b017df}{%
+           family={Sewell},
+           familyi={S\bibinitperiod},
+           given={Reid\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Mississippi State University}%
+      }
+      \strng{namehash}{80c7f741b171853eb6abb36891b017df}
+      \strng{fullhash}{80c7f741b171853eb6abb36891b017df}
+      \strng{fullhashraw}{80c7f741b171853eb6abb36891b017df}
+      \strng{bibnamehash}{80c7f741b171853eb6abb36891b017df}
+      \strng{authorbibnamehash}{80c7f741b171853eb6abb36891b017df}
+      \strng{authornamehash}{80c7f741b171853eb6abb36891b017df}
+      \strng{authorfullhash}{80c7f741b171853eb6abb36891b017df}
+      \strng{authorfullhashraw}{80c7f741b171853eb6abb36891b017df}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A common technique when investigating a disease is to profile gene expression, as this gives unique insights into the functions of a cell. Gene expression data gathered from single cell RNA sequencing can be encoded into a gene co-expression network, which is a graph of potential relationships between different genes. One method for interpreting data encoded as a graph is to use a graph neural network, or GNN. This project designs and implements a GNN architecture to accomplish classification tasks on graph data. Then, given a dataset of gene co-expression networks made from multiple single cell RNA sequencing studies, the model architecture is used to train a GNN for classifying the health state a given gene co-expression network represents. The trained GNN model is used to judge the effectiveness of the architecture across disciplines}
+      \field{day}{13}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{{{GNNs}} for {{Network Classification}} in {{Single Cell RNA Sequencing Data}}}
+      \field{urlday}{10}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.54718/PQKJ9866
+      \endverb
+      \verb{urlraw}
+      \verb https://scholarsjunction.msstate.edu/data-capstone/3/
+      \endverb
+      \verb{url}
+      \verb https://scholarsjunction.msstate.edu/data-capstone/3/
+      \endverb
+    \endentry
+    \entry{vandamGeneCoexpressionAnalysis2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=3117fc00b393a9d8ff1ab50931efa8b0}{%
+           family={Van\bibnamedelima Dam},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Sipko},
+           giveni={S\bibinitperiod}}}%
+        {{hash=74c06c9ac256bfb3f0d9371f4d56e518}{%
+           family={Võsa},
+           familyi={V\bibinitperiod},
+           given={Urmo},
+           giveni={U\bibinitperiod}}}%
+        {{hash=6ae8d06059e53f05c57f5895385f1f8f}{%
+           family={Van\bibnamedelimb Der\bibnamedelima Graaf},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Adriaan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=940ca1f1f12dca6767f77c75027b7c00}{%
+           family={Franke},
+           familyi={F\bibinitperiod},
+           given={Lude},
+           giveni={L\bibinitperiod}}}%
+        {{hash=667e5192a8d47613c99b316c4d7bf9c2}{%
+           family={De\bibnamedelima Magalhães},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={João\bibnamedelima Pedro},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{21365832b22c03f7f09800f26e78f915}
+      \strng{fullhash}{b87808a261016062b34a0ba48020eb5c}
+      \strng{fullhashraw}{b87808a261016062b34a0ba48020eb5c}
+      \strng{bibnamehash}{21365832b22c03f7f09800f26e78f915}
+      \strng{authorbibnamehash}{21365832b22c03f7f09800f26e78f915}
+      \strng{authornamehash}{21365832b22c03f7f09800f26e78f915}
+      \strng{authorfullhash}{b87808a261016062b34a0ba48020eb5c}
+      \strng{authorfullhashraw}{b87808a261016062b34a0ba48020eb5c}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{10}
+      \field{issn}{1467-5463, 1477-4054}
+      \field{journaltitle}{Briefings in Bioinformatics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{Brief Bioinform}
+      \field{title}{Gene Co-Expression Analysis for Functional Classification and Gene–Disease Predictions}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{bbw139}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/bib/bbw139
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbw139
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbw139
+      \endverb
+    \endentry
+    \entry{velickovicGraphAttentionNetworks2017}{online}{}{}
+      \name{author}{6}{}{%
+        {{hash=b1208a71c9b067bcef8fb29c15a09b5d}{%
+           family={Veličković},
+           familyi={V\bibinitperiod},
+           given={Petar},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c30bc5878e196747275a7ff581c6ed22}{%
+           family={Cucurull},
+           familyi={C\bibinitperiod},
+           given={Guillem},
+           giveni={G\bibinitperiod}}}%
+        {{hash=5a0765951987db22af274a31732111fa}{%
+           family={Casanova},
+           familyi={C\bibinitperiod},
+           given={Arantxa},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8e0f06556535de7b7d9d04d390dc4ac3}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b1dc447055a5e64105a2984bf8306851}{%
+           family={Liò},
+           familyi={L\bibinitperiod},
+           given={Pietro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a923132f6a9d7d93c40facfd855c7dc4}
+      \strng{fullhash}{e36c8bf9f36dc60726c1c2afa402755c}
+      \strng{fullhashraw}{e36c8bf9f36dc60726c1c2afa402755c}
+      \strng{bibnamehash}{a923132f6a9d7d93c40facfd855c7dc4}
+      \strng{authorbibnamehash}{a923132f6a9d7d93c40facfd855c7dc4}
+      \strng{authornamehash}{a923132f6a9d7d93c40facfd855c7dc4}
+      \strng{authorfullhash}{e36c8bf9f36dc60726c1c2afa402755c}
+      \strng{authorfullhashraw}{e36c8bf9f36dc60726c1c2afa402755c}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present graph attention networks (GATs), novel neural network architectures that operate on graph-structured data, leveraging masked self-attentional layers to address the shortcomings of prior methods based on graph convolutions or their approximations. By stacking layers in which nodes are able to attend over their neighborhoods' features, we enable (implicitly) specifying different weights to different nodes in a neighborhood, without requiring any kind of costly matrix operation (such as inversion) or depending on knowing the graph structure upfront. In this way, we address several key challenges of spectral-based graph neural networks simultaneously, and make our model readily applicable to inductive as well as transductive problems. Our GAT models have achieved or matched state-of-the-art results across four established transductive and inductive graph benchmarks: the Cora, Citeseer and Pubmed citation network datasets, as well as a protein-protein interaction dataset (wherein test graphs remain unseen during training).}
+      \field{pubstate}{prepublished}
+      \field{title}{Graph {{Attention Networks}}}
+      \field{urlday}{11}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{version}{3}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1710.10903
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1710.10903
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1710.10903
+      \endverb
+      \keyw{Artificial Intelligence (cs.AI),FOS: Computer and information sciences,Machine Learning (cs.LG),Machine Learning (stat.ML),Social and Information Networks (cs.SI)}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
