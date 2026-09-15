@@ -54,57 +54,85 @@ The evaluation framework for the project will use a confusion matrix, allowing f
 \section{Extensions and Further Work}
 If the success criteria are met, I will attempt to implement the following extensions: 
 \begin{itemize}
-    \item \textbf{EX1}: Incorporate epigenomic (snATAC-seq) data to produce a multi-omic classification model. \\
-\item\textbf{EX2}: Implement a multi-class classification model using transcriptomic and epigenomic data from Alzheimers' patients and evaluate with a new evaluation framework.\\
+
+\item\textbf{EX1}: Implement a multi-class classification model using transcriptomic data from Alzheimers' patients and evaluate with a new evaluation framework.\\
+\item \textbf{EX1}: Incorporate epigenomic (snATAC-seq) data to produce a multi-omic multi-class classification model. \\
 \item\textbf{EX3}: Improve the explainability of the model by evaluating feature importance.
 \end{itemize}
 \section{Work Plan}
 \textbf{Michaelmas Term} \\ 
 \begin{itemize}
-    \item
-    \textbf{Weeks 1-2 (13/10-26/10)} \\
-    \begin{itemize}
-        \item Background reading on mGATs, GCNs and the hdWGCNA package and set up code repository.
-        \item Milestone: Produce a document explaining the theory about these model and the reason for their inclusion in the project.
-    \end{itemize}
+    \item \textbf{Weeks 1-2 (13/10-26/10)} \\
+Background reading on mGATs, GCNs and the hdWGCNA package and set up code repository.
+
+\textbf{Milestone}: Production of a report explaining the theory about these model and the reason for their inclusion in the project.
+ 
     \item \textbf{Weeks 3-4 (27/10-9/11)} \\
-    \begin{itemize}
-        \item Read up on PyTorch and decide on the network architecture for the three models.
-        \item Milestone: Have diagrams for each network architecture and produce basic ML examples in PyTorch.
-    \end{itemize}
+Read up on PyTorch and decide on the network architecture for the three models.
+
+\textbf{Milestone}: Inital diagrams for each network architecture and produce basic ML examples in PyTorch.
     \item \textbf{Weeks 5-6 (10/11-23/11)} \\
-    \begin{itemize}
-        \item Process the snRNA-seq dataset using the py-hdWGCNA framework and split data into training, validation and testing datasets at a patient level
-        \item Milestone: The datasets should be ready for training 
-    \end{itemize}
+Process the snRNA-seq dataset using the py-hdWGCNA framework and split data into training, validation and testing datasets at a patient level. 
+
+\textbf{Milestone}: Datasets should be ready for training.
+
     \item \textbf{Weeks 7-8 (24/11-7/12)} \\
-    \begin{itemize}
-        \item Buffer period
-    \end{itemize}
+Implement the mGAT, GCN and MLP models, using the training dataset. 
+
+\textbf{Milestone}: 3 working models which are able to perform the classification task.
 \end{itemize}
 \textbf{Winter Break} \\ 
 \begin{itemize}
     \item \textbf{Weeks 9-10 (8/12-21/12)} \\
-    \begin{itemize}
-        \item 
-    \end{itemize}
+Buffer period and evaluation of model on test dataset.
+
+\textbf{Milestone}: Production of written overview of the evaluation results as outlined in "Success Criterion and Evaluation"
     \item \textbf{Weeks 11-12 (22/12-4/1)} \\
+
+    Prepare the progress report and ensure the core success criteria have been met. 
+    
+    \textbf{Milestone}: Progress report is written, prepare for the presentation.
     \item \textbf{Weeks 13-14 (5/1-18/1)} \\
+    Do the additional research for extensions [1-3]
+    
+    \textbf{Milestone}: Production of document about multimodal fusion, determining when modal fusion will be implemented, identifying evaluation metrics for multi-class classification and detailing the explainability mechanisms to be implemented
 \end{itemize}
 \textbf{Lent Term}
 \begin{itemize}
     \item \textbf{Weeks 15-16 (19/1-1/2)} \\
+    Begin work on extension 1. 
+    
+    \textbf{Milestone}: Catching up on any missed milestones.
     \item \textbf{Weeks 17-18 (2/2-15/2)} \\
-    Friday 5 February 12pm: Progress Report Presentation
+    Friday 5 February 12pm: Progress Report Presentation Deadline
+    Finish work on extension 1, start Introduction and Preparation chapters, work on extension 2. 
+    
+    \textbf{Milestone}: Working multi-class classification model.
     \item \textbf{Weeks 19-20 (16/2-1/3)} \\
     Friday 26 February: Progress Report Presentations
+    Continue extension 2, begin writing Implementation Chapter.
+    
+    \textbf{Milestone}: Send Introduction and Preparation chapters for review.
     \item \textbf{Weeks 21-22 (2/3-15/3)} \\
+    Finish Implementation Chapter and start on Evaluation and Conclusion chapters, start extension 3 time permitting.
+    
+    \textbf{Milestone}: Implementation chapter sent for review and working implementation of a multi-omic multi-class classification system.
+
 \end{itemize}
 \textbf{Easter Break} \\ 
 \begin{itemize}
     \item \textbf{Weeks 23-24 (16/3-29/3)} \\
+    Complete Evaluation and Conclusion, and finish extension 3.
+    
+    \textbf{Milestone}: First draft of dissertation sent for review, production of report exploring feature importance using the chosen framework.
     \item \textbf{Weeks 25-26 (30/3-12/4)} \\
+Buffer period, edit dissertation based on feedback received. 
+
+\textbf{Milestone}: Second draft of dissertation sent for review.
     \item \textbf{Weeks 27-28 (13/4-26/4)} \\
+Format and proofread final draft of dissertation.
+
+\textbf{Milestone}: Submission of dissertation.
 \end{itemize}
 
 \textbf{Lent Term}
