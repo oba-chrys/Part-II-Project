@@ -1,12 +1,19 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage{amsmath}
+\usepackage[a4paper, total={7in, 10in}]{geometry}
 \usepackage{amssymb}
+\usepackage{csquotes}
 \usepackage[backend=biber]{biblatex}
 \addbibresource{Project.bib}
 \usepackage{parskip}
 \setlength{\emergencystretch}{3em}
 \begin{document}
 \chapter{Project Proposal}
+\begin{center}
+    \Large
+    \textit{ Multiplex Graph Attention Network Using Gene Co-expression Networks for Disease Prediction} \\
+\end{center}
+\vspace{2em}
 \begin{tabular}{@{}l@{ : }l}
 Name & \bf Oluwatosin Bernice (Tosin Bea) Jokosenumi\\
 College & \bf Churchill College \\ 
@@ -17,20 +24,53 @@ Project Checkers & \bf Professor Pietro Lio' \\
 \end{tabular}
 \section{Introduction and Description}
 
-Multiple sclerosis is a polygenic, complex autoimmune disorder where the immune system attacks myelin, the protective cover of nerve cells (axons) in the central nervous system (CNS). Although damage can  be  mitigated to an extent by the re-routing of messages using undamaged nerve cells (plasticity), the damage eventually becomes too large to compensate resulting in progressive neurodegeneration.
+Multiple sclerosis is a complex, poly-genic autoimmune disorder wherein the immune system attacks myelin, the protective cover of nerve cells (axons) in the central nervous system (CNS). Although damage can be partially  mitigated by the re-routing of messages using undamaged nerve cells (plasticity), the damage eventually becomes too extensive to compensate for it, resulting in progressive neurodegeneration.
 
-Gene expression is the process outlined by the central dogma of molecular biology: DNA is transcribed into RNA, and RNA is translated into functional products. The measure of how much a gene is expressed at a given time is referred to as its gene expression level, and the analysis of differential expression levels when comparing healthy people and diagnosed patients can aid in the development of disease signatures based on changes in gene activity. Advanced, high-throughput technologies for studying gene expression, such as single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq), allow gene expression to be measured at the level of individual cells or nuclei, enabling the heterogeneity of cell populations to be explored.  Studies have utilised snRNA-seq data in clustering distinct  MS sub-groups \parencite{macnairSingleNucleiRNAseq2022} providing a basis for use in future individualised treatment and prediction.
+Gene expression is the process outlined by the central dogma of molecular biology: DNA is transcribed into RNA, and RNA is translated into functional products. The measure of how much a gene is expressed at a given time is referred to as its gene expression level, and the analysis of differential expression levels when comparing healthy people and diagnosed patients can aid in the development of disease signatures based on changes in gene activity. Advanced, high-throughput technologies for studying gene expression, such as single-cell RNA sequencing (scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq), allow gene expression to be measured at the level of individual cells or nuclei, enabling the heterogeneity of cell populations to be explored.  Studies have utilised snRNA-seq data in clustering distinct  MS sub-groups\parencite{macnairSingleNucleiRNAseq2022} providing a basis for use in future individualised treatment and prediction.
 
-Given that the complexity of biological networks in higher organisms  primarily arises from dynamic gene interactions as opposed to the size of the genome (C-value paradox), analysing gene dynamics offers a more informative framework for understanding biological systems. Gene-gene co-expression networks (GGCNs) are typically presented as undirected graphs where nodes are genes and the presence of edges depends on co-expression values calculated from gene expression data.\parencite{vandamGeneCoexpressionAnalysis2017} These networks can be used to  identify the functional status of genes from a systematic perspective, which can in turn inform the discovery of gene-disease associations through guilt-by-association analyses.
+Given that the complexity of biological networks in higher organisms  primarily arises from dynamic gene interactions as opposed to the size of the genome (C-value paradox), analysing gene dynamics offers a more informative framework for understanding biological systems. Gene-gene co-expression networks (GGCNs) are typically presented as undirected graphs where nodes are genes and the presence of edges depends on co-expression values calculated from gene expression data\parencite{vandamGeneCoexpressionAnalysis2017}. These networks can be used to identify the functional status of genes from a systemic perspective, which can in turn inform the discovery of gene-disease associations through guilt-by-association analyses. hdWGCNA is an extension of the WGCNA framework which is commonly used to infer GGCNs. 
 
-Graph neural networks (GNNs) have commonly been used for tasks like graph classification, node classification and link prediction.\parencite{sewellGNNsNetworkClassification2025} Given a graph $G(V,E)$  as input in the form of a node feature matrix ($H:  \mathbb{R}^{N \times F}$),  GNNs produce new node embeddings that capture the node features, and the learnt embeddings can be used for graph classification. Graph Attention Networks (GATs) introduce a masked attention mechanism which take the neighbourhood of a node into account in computing the updated features for a node\parencite{velickovicGraphAttentionNetworks2017} - previous works have successfully applied these networks to disease prediction\parencite{ravindraDiseaseStatePrediction2020}, providing precedent for its use in the project.
-
+Graph neural networks (GNNs) have commonly been used for tasks like graph classification, node classification and link prediction\parencite{sewellGNNsNetworkClassification2025}. Given a graph $G(V,E)$  as input in the form of a node feature matrix ($H:  \mathbb{R}^{N \times F}$), GNNs produce new node embeddings that capture the node features, and the learnt embeddings can be used for graph classification. Graph Attention Networks (GATs) introduce a masked attention mechanism which work by constraining the nodes taken into account in computing the updated features for a node to its neighbourhood\parencite{velickovicGraphAttentionNetworks2017} - previous works have successfully applied these networks to disease prediction\parencite{ravindraDiseaseStatePrediction2020}. To reflect the cell-type specific gene coexpression, multiplex graphs will be used, requiring the use of  a multiplex GAT (mGAT).
 The project is composed of two main goals:
 \begin{itemize}
-    \item Using the hdWGCNA framework to construct multi-layer co-expression networks from snRNA-seq gene-expression data
+    \item Using the hdWGCNA framework to construct multi-layer co-expression networks from snRNA-seq data
 
-\item Constructing a Multiplex Graph Attention Network (mGAT) which takes the GGCNs as input and outputs a binary classification for MS with a structure-blind multilayer perceptron (MLP) model and a vanilla Graph Convolution Network (GCN) to serve as baseline comparisons\parencite{luzhnicaGraphClassificationNetworks2019}.
+\item Constructing a Multiplex Graph Attention Network (mGAT) which takes the GGCNs as input and outputs a binary classification for MS with a structure-blind multilayer perceptron (MLP) model and a standard GAT to serve as baseline comparisons\parencite{luzhnicaGraphClassificationNetworks2019}.
 \end{itemize}
+
+\section{Substance and Structure}
+\subsection{Datasets}
+The datasets to be used for this project are items \cite{zotero-item-33,elkjaerDatasetArticleSingleCell2024,macnairSingleNucleiRNAseq2023} and each include a subset of transcriptomic (snRNA-seq) and epigenomic (snATAC-seq) data. Transcriptomics is one sub-branch of omics focused on the  study and analysis of the transcriptome, the collection of all RNA transcripts present in a sample at a given time. Epigenomics is the study of the chemical compounds that control the behaviour of the genome and the study of the epigenome may in future be used to detect harmful molecular changes before physical symptoms appear, acting as an early warning signal\cite{lesterEmergenceDevelopmentalBehavioral2022,alarconMetabolicEarlyWarning2025}. 
+
+Single-cell RNA-sequencing as described in Luecken \parencite{lueckenCurrentBestPractices2019} is a technique used to produce raw RNA sequence reads which can be used to produce gene expression matrices, a form of downstream quantification, where each row represents a gene and each column represents a sample/single cell, with a matrix cell representing how active that particular gene is. Its clinical applications for disease diagnosis are an active area of research. Analogously, scATAC-seq analyse open chromatin (which allow for gene expression) to produce peak count matrices where rows represent peaks (areas of the genome predicted to be open chromatin) and columns represent individual cells, with the individual matrix cells representing the number of sequence reads. 
+
+\subsection{Data Processing and Libraries}
+hdWGCNA is an extension of the WGCNA framework which allowed bulk RNA-seq data to be transformed into gene co-expression networks adapted to handle higher dimensional single-cell datasets. Given the output of cell-type specific GGCNs, a multiplex graph can be constructed from the outputs.The definition of a multiplex graph presented is adapted from [].
+A multiplex graph is defined as $G=(\mathcal{V},\mathcal{E},\mathcal{T}_v,\mathcal{T}_e,\mathcal{R},\mathcal{L})$ .
+
+$\mathcal{V}$ is the set of supra-nodes instantiated for each layer in the multiplex system, and $\mathcal{T}_v, \mathcal{T}_e$ are the sets of node types and edge types respectively. The following definitions follow:   
+
+\begin{align*}
+\phi &: \mathcal{V}* \to \mathcal{T}_v \\
+\psi &: \mathcal{E}* \to \mathcal{T}_e \\
+\mathcal{V}* &\subseteq V \times T_v  & \text{node set}\\
+\mathcal{E} &\subseteq \mathcal{V}* \times \mathcal{V}* & \text{edge set}\\
+\mathcal{R} &\triangleq \{(\phi(u),\psi(e),\phi(v))| e=(u,v) \in \mathcal{E}\} & \text{relation set} \\
+rel(e) &: \mathcal{E} \to \mathcal{R} & \text{edge mapping}\\ 
+\mathcal{E}_l &\triangleq \{e | rel(e) = l\} & \text{intra-layer edge set} \\
+\mathcal{V}_l  &\triangleq \{u | (u,l,v) \in \mathcal{R}, v \in {V}*\} & \text{intra-layer vertex set}\\
+\mathcal{L} &\triangleq \{(V_l,E_l) | l \in \mathcal{T}_e\}  & \text{multiplex graph layer} \\ 
+\mathcal{E}_{intra} &\triangleq \{(u,v) | u=(t,x) \wedge v=(t,y) \ t \in V, x,y \in \mathcal{T}_v\}   & \text{inter-layer edge set}\\
+\end{align*}
+
+The choice of a graph architecture reflecting the heterogeneity of cells in samples is due to the differential expression levels of different cell types, however, whether this affects classification will be tested by the inclusion of a traditional GAT. Whilst initially written in R, a Python re-implementation, py-hdWGCNA, has been written that is numerically faithful to the original package, and will be used. 
+
+The tensor data structure and associated operations from the PyTorch library will be used to write the linear layers and  graph attention layers  as required for the GAT, mGAT and MLP models rather than using the prebuilt library layer functions. The sci-kit library will be used to split the processed dataset into training, validation and testing datasets.
+
+\section{Models}
+The GAT architecture must be adapted to handle multiplex graphs - whilst the exact network architecture is to be determined, it will follow previous implementations of multiplex GATs, namely [] and [] adapted for graph classification.
+
+The choice of baseline models for comparisons are inspired by [] on the basis that the MLP model provides a graph structure-blind perspective and the standard GAT provides a comparison for whether the cell-type specific graph is more informative. 
 \section{Starting Point}
 I have some experience with machine learning beyond the Computer Science Tripos, however I was  unfamiliar with graph attention networks, so I have done some preliminary reading. In particular, I have read [1-6] however further reading will be required as noted in the timetable. 
 
@@ -38,9 +78,9 @@ I have some experience with machine learning beyond the Computer Science Tripos,
 The project will be considered a success if the following criteria are met:
 
 \begin{itemize}
-    \item A structure blind MLP, mGAT and vanilla GCN are designed and implemented for graph classification 
-    \item Real-world transcriptomic data is used to train the model
-    \item The evaluation framework is carried out on the models to assess their performance
+    \item MLP, mGAT and GAT models are designed and implemented for graph classification. 
+    \item Real-world transcriptomic data is used to train the model.
+    \item The evaluation framework is carried out on the models to assess their performance.
 \end{itemize}
 
 The evaluation framework for the project will use a confusion matrix, allowing for 4 classification metrics to be calculated: accuracy, precision, recall and a recall-oriented F-score given that missing a diagnosis of MS may delay medical intervention. These metrics are defined as, given the true positives (TP), true negatives (TN), false positives (FP) and false negatives (FN) from the confusion matrix, as:
@@ -56,64 +96,63 @@ If the success criteria are met, I will attempt to implement the following exten
 \begin{itemize}
 
 \item\textbf{EX1}: Implement a multi-class classification model using transcriptomic data from Alzheimers' patients and evaluate with a new evaluation framework.\\
-\item \textbf{EX1}: Incorporate epigenomic (snATAC-seq) data to produce a multi-omic multi-class classification model. \\
+\item \textbf{EX2}: Incorporate epigenomic (snATAC-seq) data to produce a multi-omic multi-class classification model. \\
 \item\textbf{EX3}: Improve the explainability of the model by evaluating feature importance.
 \end{itemize}
 \section{Work Plan}
 \textbf{Michaelmas Term} \\ 
 \begin{itemize}
-    \item \textbf{Weeks 1-2 (13/10-26/10)} \\
-Background reading on mGATs, GCNs and the hdWGCNA package and set up code repository.
+    \item \textbf{13/10/26--26/10/26} \\
+Background reading on mGATs, GATs and the hdWGCNA package and set up code repository.
 
 \textbf{Milestone}: Production of a report explaining the theory about these model and the reason for their inclusion in the project.
  
-    \item \textbf{Weeks 3-4 (27/10-9/11)} \\
+    \item \textbf{(27/10/26--9/11/26)} \\
 Read up on PyTorch and decide on the network architecture for the three models.
 
 \textbf{Milestone}: Inital diagrams for each network architecture and produce basic ML examples in PyTorch.
-    \item \textbf{Weeks 5-6 (10/11-23/11)} \\
+    \item \textbf{10/11/26--23/11/26} \\
 Process the snRNA-seq dataset using the py-hdWGCNA framework and split data into training, validation and testing datasets at a patient level. 
 
 \textbf{Milestone}: Datasets should be ready for training.
 
-    \item \textbf{Weeks 7-8 (24/11-7/12)} \\
-Implement the mGAT, GCN and MLP models, using the training dataset. 
+    \item \textbf{24/11/26--7/12/26} \\
+Implement the mGAT, GAT and MLP models, using the training dataset. 
 
 \textbf{Milestone}: 3 working models which are able to perform the classification task.
 \end{itemize}
 \textbf{Winter Break} \\ 
 \begin{itemize}
-    \item \textbf{Weeks 9-10 (8/12-21/12)} \\
+    \item \textbf{8/12/26--21/12/26} \\
 Buffer period and evaluation of model on test dataset.
 
-\textbf{Milestone}: Production of written overview of the evaluation results as outlined in "Success Criterion and Evaluation"
-    \item \textbf{Weeks 11-12 (22/12-4/1)} \\
-
+\textbf{Milestone}: Production of written overview of the evaluation results as outlined in \enquote{Success Criterion and Evaluation}
+    \item \textbf{22/12/27--4/1/27} \\
     Prepare the progress report and ensure the core success criteria have been met. 
     
     \textbf{Milestone}: Progress report is written, prepare for the presentation.
-    \item \textbf{Weeks 13-14 (5/1-18/1)} \\
+    \item \textbf{5/1/27--18/1/27} \\
     Do the additional research for extensions [1-3]
     
     \textbf{Milestone}: Production of document about multimodal fusion, determining when modal fusion will be implemented, identifying evaluation metrics for multi-class classification and detailing the explainability mechanisms to be implemented
 \end{itemize}
 \textbf{Lent Term}
 \begin{itemize}
-    \item \textbf{Weeks 15-16 (19/1-1/2)} \\
+    \item \textbf{19/1/27--1/2/27} \\
     Begin work on extension 1. 
     
     \textbf{Milestone}: Catching up on any missed milestones.
-    \item \textbf{Weeks 17-18 (2/2-15/2)} \\
-    Friday 5 February 12pm: Progress Report Presentation Deadline
+    \item \textbf{2/2/27--15/2/27} \\
+    \textit{Friday 5 February 12pm: Progress Report Presentation Deadline} \\
     Finish work on extension 1, start Introduction and Preparation chapters, work on extension 2. 
     
     \textbf{Milestone}: Working multi-class classification model.
-    \item \textbf{Weeks 19-20 (16/2-1/3)} \\
-    Friday 26 February: Progress Report Presentations
+    \item \textbf{16/2/27--1/3/27} \\
+    \textit{Friday 26 February: Progress Report Presentations}\\
     Continue extension 2, begin writing Implementation Chapter.
     
     \textbf{Milestone}: Send Introduction and Preparation chapters for review.
-    \item \textbf{Weeks 21-22 (2/3-15/3)} \\
+    \item \textbf{2/3/27--15/3/27} \\
     Finish Implementation Chapter and start on Evaluation and Conclusion chapters, start extension 3 time permitting.
     
     \textbf{Milestone}: Implementation chapter sent for review and working implementation of a multi-omic multi-class classification system.
@@ -121,30 +160,30 @@ Buffer period and evaluation of model on test dataset.
 \end{itemize}
 \textbf{Easter Break} \\ 
 \begin{itemize}
-    \item \textbf{Weeks 23-24 (16/3-29/3)} \\
+    \item \textbf{16/3/27--29/3/27} \\
     Complete Evaluation and Conclusion, and finish extension 3.
     
     \textbf{Milestone}: First draft of dissertation sent for review, production of report exploring feature importance using the chosen framework.
-    \item \textbf{Weeks 25-26 (30/3-12/4)} \\
+    \item \textbf{30/3/27--12/4/27} \\
 Buffer period, edit dissertation based on feedback received. 
 
 \textbf{Milestone}: Second draft of dissertation sent for review.
-    \item \textbf{Weeks 27-28 (13/4-26/4)} \\
+    \item \textbf{13/4/27--26/4/27} \\
 Format and proofread final draft of dissertation.
 
-\textbf{Milestone}: Submission of dissertation.
+\textbf{Milestone}: Submission of dissertation.\\
 \end{itemize}
 
-\textbf{Lent Term}
+\textbf{Easter Term}
 \begin{itemize}
-    \item \textbf{Weeks 15-16 (27/4-9/5)} \\
-    Friday 11 June 12pm: Dissertation Deadline 
+    \item \textbf{27/4/27--9/5/27} \\
+    \textit{Friday 11 June 12pm: Dissertation Deadline} 
 \end{itemize}
 \section{Resource Declaration}
 
-I will be using my personal laptop, a 2024 Dell Inspiron 16 2-in-1, with 16GB memory and a 1TB SSD for software development. As a backup, I will use my secondary personal laptop with an external 1TB storage. I will continuously backup my code and dissertation with Git version control. I accept full responsibility for this machine and I have made contingency plans to protect myself against hardware and/or software failure. In terms of software, I will use Python including the PyTorch and py-hdWGCNA libraries. 
+I will be using my personal laptop, a 2024 Dell Inspiron 16 2-in-1, with 16GB memory and a 1TB SSD for software development. As a backup, I will use my secondary personal laptop with my project backed onto my university account OneDrive. I will continuously backup my code and dissertation with GitHub version control. I accept full responsibility for this machine and I have made contingency plans to protect myself against hardware and/or software failure. In terms of software, I will use Python including the PyTorch and py-hdWGCNA libraries. 
 
-The project also requires the use of biological datasets for training data. These datasets have been taken from https://zenodo.org/records which are publicly available to anyone.
+The project also requires the use of biological datasets for training data. These datasets have been taken from https://zenodo.org/records which are publicly available to anyone and have been downloaded onto my personal device. Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD) was accessed on 18/09/2026 from https://registry.opendata.aws/allen-sea-ad-atlas.
 
 \printbibliography
 \end{document}
