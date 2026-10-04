@@ -1,0 +1,7 @@
+snRNA-seq -(hdWGCNA)-> GGCN -(mGAT)-> classification
+
+snRNAseq -(GNN) -> GGCN -(mGAT)-> classification
+
+snRNAseq -(GNN)-> GRN -(mGAT)-> classification
+
+snRNAseq -(SCENIC)-> GRN -(mGAT)-> classification
