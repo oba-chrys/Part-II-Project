@@ -75,6 +75,262 @@
       \verb http://biorxiv.org/lookup/doi/10.1101/2025.03.24.644914
       \endverb
     \endentry
+    \entry{aminArtificialIntelligenceMultiple2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=73cb46d4dea7af9190eabc2da83991e0}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={Moein},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0f0d1e9d74c4a86102ac05e3737a5b20}{%
+           family={Martínez-Heras},
+           familyi={M\bibinithyphendelim H\bibinitperiod},
+           given={Eloy},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f4976f09304c895cb4b6032921cb8b60}{%
+           family={Ontaneda},
+           familyi={O\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c493cf21666930da873309f5f820d5b8}{%
+           family={Prados\bibnamedelima Carrasco},
+           familyi={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ferran},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e645dc180dd492ca743ceba1a3c5cd39}
+      \strng{fullhash}{7d6e6a15bb45a57d10471b4b4bc0cdd3}
+      \strng{fullhashraw}{7d6e6a15bb45a57d10471b4b4bc0cdd3}
+      \strng{bibnamehash}{e645dc180dd492ca743ceba1a3c5cd39}
+      \strng{authorbibnamehash}{e645dc180dd492ca743ceba1a3c5cd39}
+      \strng{authornamehash}{e645dc180dd492ca743ceba1a3c5cd39}
+      \strng{authorfullhash}{7d6e6a15bb45a57d10471b4b4bc0cdd3}
+      \strng{authorfullhashraw}{7d6e6a15bb45a57d10471b4b4bc0cdd3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract In this paper, we analyse the different advances in artificial intelligence (AI) approaches in multiple sclerosis (MS). AI applications in MS range across investigation of disease pathogenesis, diagnosis, treatment, and prognosis. A subset of AI, Machine learning (ML) models analyse various data sources, including magnetic resonance imaging (MRI), genetic, and clinical data, to distinguish MS from other conditions, predict disease progression, and personalize treatment strategies. Additionally, AI models have been extensively applied to lesion segmentation, identification of biomarkers, and prediction of outcomes, disease monitoring, and management. Despite the big promises of AI solutions, model interpretability and transparency remain critical for gaining clinician and patient trust in these methods. The future of AI in MS holds potential for open data initiatives that could feed ML models and increasing generalizability, the implementation of federated learning solutions for training the models addressing data sharing issues, and generative AI approaches to address challenges in model interpretability, and transparency. In conclusion, AI presents an opportunity to advance our understanding and management of MS. AI promises to aid clinicians in MS diagnosis and prognosis improving patient outcomes and quality of life, however ensuring the interpretability and transparency of AI-generated results is going to be key for facilitating the integration of AI into clinical practice.}
+      \field{issn}{1528-4042, 1534-6293}
+      \field{journaltitle}{Current Neurology and Neuroscience Reports}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{8}
+      \field{shortjournal}{Curr Neurol Neurosci Rep}
+      \field{title}{Artificial {{Intelligence}} and {{Multiple Sclerosis}}}
+      \field{urlday}{19}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{233\bibrangedash 243}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s11910-024-01354-x
+      \endverb
+      \verb{file}
+      \verb C:\Users\Tosin Bea\Zotero\storage\4GADI2WB\Amin et al. - 2024 - Artificial Intelligence and Multiple Sclerosis.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/10.1007/s11910-024-01354-x
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/10.1007/s11910-024-01354-x
+      \endverb
+    \endentry
+    \entry{zotero-item-47}{dataset}{}{}
+      \name{author}{4}{}{%
+        {{hash=f43347cc7e982e788fc8832c1b30113b}{%
+           family={Barretto},
+           familyi={B\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06d9dfb17925ee940c2a213806c2eca4}{%
+           family={Jackson},
+           familyi={J\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1edc6c3ca011746dd14cb91c21980fbd}{%
+           family={Daly},
+           familyi={D\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=55da30ae911bb3df6ef6750585cd6d41}{%
+           family={Phatnani},
+           familyi={P\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{d32c54ebbe6f59b010868984ec482b55}
+      \strng{fullhash}{0a5a75e65a80fa6095cb079a3b04de6e}
+      \strng{fullhashraw}{0a5a75e65a80fa6095cb079a3b04de6e}
+      \strng{bibnamehash}{d32c54ebbe6f59b010868984ec482b55}
+      \strng{authorbibnamehash}{d32c54ebbe6f59b010868984ec482b55}
+      \strng{authornamehash}{d32c54ebbe6f59b010868984ec482b55}
+      \strng{authorfullhash}{0a5a75e65a80fa6095cb079a3b04de6e}
+      \strng{authorfullhashraw}{0a5a75e65a80fa6095cb079a3b04de6e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Multi-Omics Characterization of the Human Lumbar Spinal Cord and Motor Cortex Reveals Non-Overlapping Molecular Signatures in {{ALS}} [{{snRNA-Seq}}; {{snATAC-Seq}}]}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi
+      \endverb
+    \endentry
+    \entry{bongiovanniMPXGATAttentionBased2024}{online}{}{}
+      \name{author}{4}{}{%
+        {{hash=e1e85d78f42a067d8db7dda234c466e1}{%
+           family={Bongiovanni},
+           familyi={B\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=85023346fc4122629644e94801c3b494}{%
+           family={Gallo},
+           familyi={G\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=57132591b0829b0e30e93719386445a2}{%
+           family={Grasso},
+           familyi={G\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=420c0ca34abcd7986ed95c8dc3be4200}{%
+           family={Pulvirenti},
+           familyi={P\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c5efd81890bced10ec905fd500494d0}
+      \strng{fullhash}{239c58d48005e4339e2cf66a22069777}
+      \strng{fullhashraw}{239c58d48005e4339e2cf66a22069777}
+      \strng{bibnamehash}{0c5efd81890bced10ec905fd500494d0}
+      \strng{authorbibnamehash}{0c5efd81890bced10ec905fd500494d0}
+      \strng{authornamehash}{0c5efd81890bced10ec905fd500494d0}
+      \strng{authorfullhash}{239c58d48005e4339e2cf66a22069777}
+      \strng{authorfullhashraw}{239c58d48005e4339e2cf66a22069777}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Graph representation learning has rapidly emerged as a pivotal field of study. Despite its growing popularity, the majority of research has been confined to embedding single-layer graphs, which fall short in representing complex systems with multifaceted relationships. To bridge this gap, we introduce MPXGAT, an innovative attention-based deep learning model tailored to multiplex graph embedding. Leveraging the robustness of Graph Attention Networks (GATs), MPXGAT captures the structure of multiplex networks by harnessing both intra-layer and inter-layer connections. This exploitation facilitates accurate link prediction within and across the network's multiple layers. Our comprehensive experimental evaluation, conducted on various benchmark datasets, confirms that MPXGAT consistently outperforms state-of-the-art competing algorithms.}
+      \field{day}{28}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{month}{3}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{{{MPXGAT}}}
+      \field{title}{{{MPXGAT}}: {{An Attention}} Based {{Deep Learning Model}} for {{Multiplex Graphs Embedding}}}
+      \field{urlday}{19}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2403.19246
+      \endverb
+      \verb{eprint}
+      \verb 2403.19246
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\Tosin Bea\\Zotero\\storage\\ITMM8YM5\\Bongiovanni et al. - 2024 - MPXGAT An Attention based Deep Learning Model for Multiplex Graphs Embedding.pdf;C\:\\Users\\Tosin Bea\\Zotero\\storage\\4TGT7CVF\\2403.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2403.19246
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2403.19246
+      \endverb
+      \keyw{Computer Science - Discrete Mathematics,Computer Science - Machine Learning,Computer Science - Social and Information Networks}
+    \endentry
+    \entry{boutitah-benyaichMultipleSclerosisMolecular2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=ca06c3b48c7e5fca1f7c10198575234b}{%
+           family={Boutitah-Benyaich},
+           familyi={B\bibinithyphendelim B\bibinitperiod},
+           given={Imane},
+           giveni={I\bibinitperiod}}}%
+        {{hash=5b695b52b4b3c78e0bbdc09f2aee9667}{%
+           family={Eixarch},
+           familyi={E\bibinitperiod},
+           given={Herena},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c6e0b9e0106ff5e298e74b579333bd36}{%
+           family={Villacieros-Álvarez},
+           familyi={V\bibinithyphendelim Á\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e781cd87c5808942a30c778e3cca868a}{%
+           family={Hervera},
+           familyi={H\bibinitperiod},
+           given={Arnau},
+           giveni={A\bibinitperiod}}}%
+        {{hash=19699b2a4fa6c85361865dc747cbf89f}{%
+           family={Cobo-Calvo},
+           familyi={C\bibinithyphendelim C\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=c2e1658b71932d1dd6dc90c9ff04bcc4}{%
+           family={Montalban},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod}}}%
+        {{hash=baac31e23f86a377968dd0d48da98a69}{%
+           family={Espejo},
+           familyi={E\bibinitperiod},
+           given={Carmen},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6dbe4b5aff30a474dce4dbd50e0ea82b}
+      \strng{fullhash}{46ed6999fadf58ccbd3f818a4512b5ed}
+      \strng{fullhashraw}{46ed6999fadf58ccbd3f818a4512b5ed}
+      \strng{bibnamehash}{6dbe4b5aff30a474dce4dbd50e0ea82b}
+      \strng{authorbibnamehash}{6dbe4b5aff30a474dce4dbd50e0ea82b}
+      \strng{authornamehash}{6dbe4b5aff30a474dce4dbd50e0ea82b}
+      \strng{authorfullhash}{46ed6999fadf58ccbd3f818a4512b5ed}
+      \strng{authorfullhashraw}{46ed6999fadf58ccbd3f818a4512b5ed}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Multiple sclerosis is a chronic immune-mediated disorder of the central nervous system characterized by demyelination, axonal loss, and neuroinflammation, culminating in progressive neurological disability. Despite significant advances in understanding its immunopathogenesis, current immunotherapies remain limited in their ability to halt disease progression, making multiple sclerosis incurable and highlighting the critical need for novel therapeutic strategies. Antigen-specific immunotherapy represents a groundbreaking approach that aims to restore immune tolerance to myelin-derived antigens while preserving the protective functions of the immune system. Unlike broad immunosuppressive strategies, antigen-specific immunotherapy offers the potential for highly targeted modulation of pathogenic immune responses, reducing off-target effects and enhancing safety profiles. Over the last two decades, preclinical studies and clinical trials have explored diverse antigen-specific immunotherapy modalities, ranging from peptide-based vaccines to nanoparticle platforms, each aimed at achieving durable tolerance in multiple sclerosis. This review provides a comprehensive overview of multiple sclerosis, covering its etiology, clinical features, pathogenesis, pathology, and current therapeutic approaches. Thus, it delves into the current state of antigen-specific immunotherapy research, critically examining its successes and limitations while addressing the translational challenges that must be overcome to realize its therapeutic potential. By integrating insights from immunology, biotechnology, and translational medicine, we propose directions for advancing antigen-specific approaches in the quest for transformative multiple sclerosis therapies.}
+      \field{day}{2}
+      \field{issn}{2059-3635}
+      \field{journaltitle}{Signal Transduction and Targeted Therapy}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{1}
+      \field{shortjournal}{Sig Transduct Target Ther}
+      \field{shorttitle}{Multiple Sclerosis}
+      \field{title}{Multiple Sclerosis: Molecular Pathogenesis and Therapeutic Intervention}
+      \field{urlday}{26}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{324}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41392-025-02415-4
+      \endverb
+      \verb{file}
+      \verb C:\Users\Tosin Bea\Zotero\storage\Y9AEMWN5\Boutitah-Benyaich et al. - 2025 - Multiple sclerosis molecular pathogenesis and therapeutic intervention.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41392-025-02415-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41392-025-02415-4
+      \endverb
+    \endentry
     \entry{elkjaerDatasetArticleSingleCell2024}{dataset}{}{}
       \name{author}{10}{}{%
         {{hash=3b7b5883a2f95a356bc634426c0c4c14}{%
@@ -163,6 +419,73 @@
       \verb https://zenodo.org/doi/10.5281/zenodo.17733764
       \endverb
       \keyw{Multiple Sclerosis}
+    \endentry
+    \entry{fengDEGREEDecompositionBased2023}{online}{}{}
+      \name{author}{6}{}{%
+        {{hash=467a41263bc575ed026f2e6447708a55}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Qizhang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=6462862c5b74b039231d999d3ccb3347}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ninghao},
+           giveni={N\bibinitperiod}}}%
+        {{hash=bac6a7a5d8c835c2ebe5288a6fe722b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1b830ec506c88525a860c2fa0f92ed80}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Ruixiang},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9beacda51637cbdae2180aeebe90f31c}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Mengnan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=13be76d254e7c2f65cfc92bc75bb18fd}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Xia},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{3da28161cd9493eca60111007715e038}
+      \strng{fullhash}{2df2c18f076cb9a62b31690798228d35}
+      \strng{fullhashraw}{2df2c18f076cb9a62b31690798228d35}
+      \strng{bibnamehash}{3da28161cd9493eca60111007715e038}
+      \strng{authorbibnamehash}{3da28161cd9493eca60111007715e038}
+      \strng{authornamehash}{3da28161cd9493eca60111007715e038}
+      \strng{authorfullhash}{2df2c18f076cb9a62b31690798228d35}
+      \strng{authorfullhashraw}{2df2c18f076cb9a62b31690798228d35}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Graph Neural Networks (GNNs) are gaining extensive attention for their application in graph data. However, the black-box nature of GNNs prevents users from understanding and trusting the models, thus hampering their applicability. Whereas explaining GNNs remains a challenge, most existing methods fall into approximation based and perturbation based approaches with suffer from faithfulness problems and unnatural artifacts, respectively. To tackle these problems, we propose DEGREE \textbackslash degree to provide a faithful explanation for GNN predictions. By decomposing the information generation and aggregation mechanism of GNNs, DEGREE allows tracking the contributions of specific components of the input graph to the final prediction. Based on this, we further design a subgraph level interpretation algorithm to reveal complex interactions between graph nodes that are overlooked by previous methods. The efficiency of our algorithm can be further improved by utilizing GNN characteristics. Finally, we conduct quantitative and qualitative experiments on synthetic and real-world datasets to demonstrate the effectiveness of DEGREE on node classification and graph classification tasks.}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{{{DEGREE}}}
+      \field{title}{{{DEGREE}}: {{Decomposition Based Explanation For Graph Neural Networks}}}
+      \field{urlday}{27}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{version}{1}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/ARXIV.2305.12895
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2305.12895
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2305.12895
+      \endverb
+      \keyw{FOS: Computer and information sciences,Machine Learning (cs.LG)}
     \endentry
     \entry{lesterEmergenceDevelopmentalBehavioral2022}{article}{}{}
       \name{author}{3}{}{%
@@ -663,6 +986,76 @@
       \verb https://scholarsjunction.msstate.edu/data-capstone/3/
       \endverb
     \endentry
+    \entry{tieriNetworkInferenceReconstruction2019}{incollection}{}{}
+      \name{author}{6}{}{%
+        {{hash=4196e9e71bbc39d94c75a5273c7b70d0}{%
+           family={Tieri},
+           familyi={T\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3cb75a89f229c178e015dda26efad816}{%
+           family={Farina},
+           familyi={F\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d34e88171394809089062d015aaeeb9c}{%
+           family={Petti},
+           familyi={P\bibinitperiod},
+           given={Manuela},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cc0339ee13af7e33f2d552fb5a8242d3}{%
+           family={Astolfi},
+           familyi={A\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bde3aac0e7d63150af02661cab87cbe1}{%
+           family={Paci},
+           familyi={P\bibinitperiod},
+           given={Paola},
+           giveni={P\bibinitperiod}}}%
+        {{hash=89ee659d4c7f153d3a42a70b3ee05ea5}{%
+           family={Castiglione},
+           familyi={C\bibinitperiod},
+           given={Filippo},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a451138f1ba84abe3737a8b13ad1c995}
+      \strng{fullhash}{81a3e8006f00abe97c76e55ce7341497}
+      \strng{fullhashraw}{81a3e8006f00abe97c76e55ce7341497}
+      \strng{bibnamehash}{a451138f1ba84abe3737a8b13ad1c995}
+      \strng{authorbibnamehash}{a451138f1ba84abe3737a8b13ad1c995}
+      \strng{authornamehash}{a451138f1ba84abe3737a8b13ad1c995}
+      \strng{authorfullhash}{81a3e8006f00abe97c76e55ce7341497}
+      \strng{authorfullhashraw}{81a3e8006f00abe97c76e55ce7341497}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of {{Bioinformatics}} and {{Computational Biology}}}
+      \field{isbn}{978-0-12-811432-2}
+      \field{langid}{english}
+      \field{title}{Network {{Inference}} and {{Reconstruction}} in {{Bioinformatics}}}
+      \field{urlday}{12}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{805\bibrangedash 813}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-809633-8.20290-2
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128096338202902
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128096338202902
+      \endverb
+    \endentry
     \entry{vandamGeneCoexpressionAnalysis2017}{article}{}{}
       \name{author}{5}{}{%
         {{hash=3117fc00b393a9d8ff1ab50931efa8b0}{%
@@ -793,6 +1186,99 @@
       \verb https://arxiv.org/abs/1710.10903
       \endverb
       \keyw{Artificial Intelligence (cs.AI),FOS: Computer and information sciences,Machine Learning (cs.LG),Machine Learning (stat.ML),Social and Information Networks (cs.SI)}
+    \endentry
+    \entry{xingMultilevelAttentionGraph2022}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=149be6c96a4837b7cae5e0fff3bd9454}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Xiaohan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=bac6a7a5d8c835c2ebe5288a6fe722b4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1161a5311adb3130e6d43df93c8b498f}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c085572f860d99d03a37c331ee13ff68}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=26500c0e7c5f37a79d71416c4c641ba2}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=333722a86b992fdcb93992d5d1e3973a}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Mingxuan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=10b0bc00e8e92345a8bc3f6c1e6bb625}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Junzhou},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2b00ca9ea5084e5849e3a5a7ed7bda50}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Jianhua},
+           giveni={J\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=225813922672dfe23fe2441db84b3f96}{%
+           family={Birol},
+           familyi={B\bibinitperiod},
+           given={Inanc},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{13d1d205a6ce67dd1561762a85e464d8}
+      \strng{fullhash}{33e4691e5a6a80d688060e5cbbbe927e}
+      \strng{fullhashraw}{33e4691e5a6a80d688060e5cbbbe927e}
+      \strng{bibnamehash}{13d1d205a6ce67dd1561762a85e464d8}
+      \strng{authorbibnamehash}{13d1d205a6ce67dd1561762a85e464d8}
+      \strng{authornamehash}{13d1d205a6ce67dd1561762a85e464d8}
+      \strng{authorfullhash}{33e4691e5a6a80d688060e5cbbbe927e}
+      \strng{authorfullhashraw}{33e4691e5a6a80d688060e5cbbbe927e}
+      \strng{editorbibnamehash}{225813922672dfe23fe2441db84b3f96}
+      \strng{editornamehash}{225813922672dfe23fe2441db84b3f96}
+      \strng{editorfullhash}{225813922672dfe23fe2441db84b3f96}
+      \strng{editorfullhashraw}{225813922672dfe23fe2441db84b3f96}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Motivation Advanced deep learning techniques have been widely applied in disease diagnosis and prognosis with clinical omics, especially gene expression data. In the regulation of biological processes and disease progression, genes often work interactively rather than individually. Therefore, investigating gene association information and co-functional gene modules can facilitate disease state prediction. Results To explore the gene modules and inter-gene relational information contained in the omics data, we propose a novel multi-level attention graph neural network (MLA-GNN) for disease diagnosis and prognosis. Specifically, we format omics data into co-expression graphs via weighted correlation network analysis, and then construct multi-level graph features, finally fuse them through a well-designed multi-level graph feature fully fusion module to conduct predictions. For model interpretation, a novel full-gradient graph saliency mechanism is developed to identify the disease-relevant genes. MLA-GNN achieves state-of-the-art performance on transcriptomic data from TCGA-LGG/TCGA-GBM and proteomic data from coronavirus disease 2019 (COVID-19)/non-COVID-19 patient sera. More importantly, the relevant genes selected by our model are interpretable and are consistent with the clinical understanding. Availabilityand implementation The codes are available at https://github.com/TencentAILabHealthcare/MLA-GNN.}
+      \field{day}{12}
+      \field{issn}{1367-4803, 1367-4811}
+      \field{journaltitle}{Bioinformatics}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{8}
+      \field{title}{Multi-Level Attention Graph Neural Network Based on Co-Expression Gene Modules for Disease Diagnosis and Prognosis}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{38}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2178\bibrangedash 2186}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btac088
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/bioinformatics/article/38/8/2178/6528315
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/bioinformatics/article/38/8/2178/6528315
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

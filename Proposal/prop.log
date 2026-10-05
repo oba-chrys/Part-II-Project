@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.7)  4 OCT 2026 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.7)  5 OCT 2026 02:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -474,51 +474,46 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 [3]
-Underfull \hbox (badness 1845) in paragraph at lines 98--99
-[]\OT1/cmr/bx/n/12 EX1\OT1/cmr/m/n/12 : Im-ple-ment a multi-class clas-si-fi-ca-tion model us-ing tran-scrip-tomic data from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-
 
 [6]
 
 [7
 
 ]
+Underfull \hbox (badness 1910) in paragraph at lines 202--202
+[]\OT1/cmr/m/n/12 Xiaohan Xing et al. \  Multi-Level At-ten-tion Graph Neu-ral Net-work Based on Co-
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 202--202
+\OT1/cmr/m/n/12 Expression Gene Mod-ules for Dis-ease Di-ag-no-sis and Prog-no-sis". In: \OT1/cmr/m/it/12 Bioin-for-mat-ics
+ []
+
+
 
 [8] (./prop.aux)
  ***********
@@ -530,18 +525,18 @@ Package logreq Info: Writing requests to 'prop.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11155 strings out of 469608
- 207098 string characters out of 5474780
- 1035217 words of memory out of 5000000
- 37910 multiletter control sequences out of 15000+600000
+ 11183 strings out of 469608
+ 208778 string characters out of 5474780
+ 1034943 words of memory out of 5000000
+ 37938 multiletter control sequences out of 15000+600000
  635095 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,10n,66p,2937b,1290s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on prop.pdf (8 pages, 169100 bytes).
+ 63i,6n,66p,2937b,1292s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on prop.pdf (8 pages, 136325 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
