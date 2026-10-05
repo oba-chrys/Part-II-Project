@@ -11,7 +11,7 @@
 \chapter{Project Proposal}
 \begin{center}
     \Large
-    \textit{ Multiplex Graph Attention Network Using Gene Co-expression Networks for Disease Prediction} \\
+    \textit{ Multiplex Graph Attention Network Using Gene Regulatory Networks for Disease Prediction} \\
 \end{center}
 \vspace{2em}
 \begin{tabular}{@{}l@{ : }l}
@@ -44,21 +44,18 @@ an early warning signal\cite{alarconMetabolicEarlyWarning2025,lesterEmergenceDev
 Single-cell RNA-sequencing as described in \citeauthor{lueckenCurrentBestPractices2019} is a technique used to produce raw RNA sequence reads which can be used to produce gene expression matrices, where rows represent genes and each column represents a single cell, with a matrix cell representing how active that particular gene is. Analogously, scATAC-seq analyse open chromatin (which allow for gene expression) to produce peak count matrices where rows represent peaks and columns represent individual cells, with the individual matrix cells representing the number of sequence reads. Advanced, high-throughput technologies for studying gene expression, such as single-cell RNA sequencing(scRNA-seq) and single-nucleus RNA sequencing (snRNA-seq), allow gene expression to be measured at the level of individual cells or nuclei, enabling the heterogeneity of cell populations to be explored. Studies have utilised snRNA-seq data in clustering distinct MS sub-groups\parencite{macnairSingleNucleiRNAseq2022} providing a basis for use in future individualised treatment.
 
 Given that the complexity of biological networks in higher organisms primarily arises from dynamic gene interactions as opposed to the size of the genome (C-value paradox), analysing gene dynamics
-offers a more informative framework for understanding biological systems. Gene-gene co-expression networks (GGCNs) are typically presented as undirected graphs where nodes are genes and the
-presence of edges depends on co-expression values calculated from gene expression data\parencite{vandamGeneCoexpressionAnalysis2017}. These
-networks can be used to identify the functional status of genes from a systemic perspective, which can in turn inform the discovery of gene-disease associations through guilt-by-association analyses.
-Several frameworks have been used to infer GGCNs from snRNA-seq data, including the WGCNA framework, and its extension hdWGCNA, which will be used to build the multi-layer co-expression
-network for this project.
+offers a more informative framework for understanding biological systems. Transcription is regulated by transcription factors (TFs) and their co-factors, proteins which bind to DNA binding sets, affecting DNA accessibility, limiting the transcription rate, thereby affecting gene expression levels of target genes to determine cell differentiation and function, and to respond to environmental stimuli.  Gene regulatory networks (GRNs) capture the causal relationships between TFs (their encoding genes) and target genes, microRNAs and other regulatory molecules, represented as directed graphs involving TFs, target genes and regulatory relationships in its simplest form\parencite{badia-i-mompelGeneRegulatoryNetwork2023}. GRN inference from biological data has been accomplished using bulk omics data at its lowest resolution, and higher resolution single-cell multi-omic data which was shown to improve accuracy\cite{liuMultiGNNGraphNeural2025,yuanInferringGeneRegulatory2025}. There are several frameworks for inferring GRNS from snRNA-seq data including the SCENIC and SCENIC+ frameworks\parencite{aibarSCENICSinglecellRegulatory2017}, which will be used as a baseline for the multi-layer co-expression network for this project. 
+
 
 Graph neural networks (GNNs) have commonly been used for tasks like graph classification, node classification and link prediction\parencite{sewellGNNsNetworkClassification2025}. Given a graph $G(V,E)$ as input in the form of a node feature matrix $(H : \mathbb{R}^{N \times F})$, GNNs produce new node embeddings that capture the node features, and
 the learnt embeddings can be used for graph classification. Graph Attention Networks (GATs) introduce a masked attention mechanism which works by constraining the nodes taken into account in computing the updated features for a node to its neighbourhood\parencite{velickovicGraphAttentionNetworks2017} -- previous works have
-successfully applied these networks to disease prediction\parencite{ravindraDiseaseStatePrediction2020}. To reflect the cell-type specific gene co-expression,a multi-layer graph, known as a multiplex graphs will be used, requiring the use of a multiplex GAT (mGAT).
+successfully applied these networks to disease prediction\parencite{ravindraDiseaseStatePrediction2020}. To reflect the cell-type specific gene regulatory relationships,a multi-layer graph, known as a multiplex graphs will be used, requiring the use of a multiplex GAT (mGAT).Deep learning models are capable of modelling complex non-linear biological relationships which are commonly found in complex diseases \parencite{avasthiHarnessingGenotypephenotypeNonlinearity2023}, a limitation in statistical approaches like WGCNA which capture linear co-expression associations.
 
-In this project, snRNA-seq data from diagnosed MS patients and healthy control will be transformed into multi-layer co-expression networks using the hdWGCNA framework. These graphs will be used as input to an mGAT whose initial downstream task will be binary MS classification. The
+In this project, snRNA-seq data from diagnosed MS patients and healthy control will be transformed into inferred multi-layer GRNs with the implementation of the GRANET architecture\parencite{zhouGRANetGraphResidual2025}, a GAT for GRN inference using link prediction and the comparative industry-standard SCENIC framework. These graphs will be used as input to an mGAT whose initial downstream task will be binary MS classification. The
 contributions of the project are:
 \begin{itemize}
-    \item The leveraging of the hdWGCNA framework to construct the multiplex co-expression networks
-    \item  The design of an mGAT architecture that uses the GGCNs as input for downstream binary classification
+    \item The leveraging of the SCENIC framework and GRANET architecture to construct  multiplex GRNs using snRNA-seq data. 
+    \item  The design of an mGAT architecture that uses the GRNs as input for downstream binary classification.
     \item The performance comparison of the proposed mGAT architecture against the baseline GAT model.
 \end{itemize}
 
@@ -68,14 +65,13 @@ contributions of the project are:
 The datasets to be used for this project are items \cite{zotero-item-47,elkjaerDatasetArticleSingleCell2024,macnairSingleNucleiRNAseq2023,zotero-item-33} and each include a subset of transcriptomic (snRNA-seq) and epigenomic (snATAC-seq) data. 
 
 \subsection{Data Processing and Libraries}
-hdWGCNA is an extension of the WGCNA framework which allowed bulk RNA-seq data to be transformed into gene co-expression networks adapted to handle higher dimensional single-cell
-datasets. Given the output of cell-type specific GGCNs, a multiplex graph can be constructed from the outputs. A multiplex graph is informally defined as a graph where node are split into
-layers and both interlayer and intralayer edges may be present.
+SCENIC is a framework which was developed to use scRNA-seq data to infer GRNs or a combination of single cell RNA-seq and single-cell ATAC-seq data (SCENIC+) though it may be applied to snRNA-seq and snATAC-seq with appropriate modifications. A multiplex graph is informally defined as a graph where node are split into
+layers and both interlayer and intralayer edges may be present. The Python implementation (pySCENIC) of the SCENIC pipeline will be used. 
 
 The choice of a graph architecture reflecting the heterogeneity of cells in samples is due to the differential expression levels of different cell types, however, whether this affects classification
-will be tested by the inclusion of a traditional GAT. Whilst initially written in R, a Python re-implementation, py-hdWGCNA, has been written that is numerically faithful to the original package, and will be used.
+will be tested by the inclusion of a traditional GAT. 
 
-The tensor data structure and associated operations from the PyTorch library will be used to write the linear layers and graph attention layers as required for the GAT, mGAT and MLP models rather than using the prebuilt library functions. The sci-kit library will be used to split the processed
+The PyTorch library will be used to construct the GAT, mGAT and MLP models. The sci-kit library will be used to split the processed
 dataset into training, validation and testing datasets.
 
 \section{Models}
@@ -96,9 +92,9 @@ The project will be considered a success if the following criteria are met:
     \item Real-world transcriptomic data is used to train the model.
     \item The evaluation framework is carried out on the models to assess their performance.
 \end{itemize}
+The evaluation framework for the GRN inference component will use the AUROC and AUPRC metrics on the seven standard test datasets outlined in the BEELINE benchmark framework \parencite{pratapaBenchmarkingAlgorithmsGene2020} which include cell-type specific networks, and functional networks built using STRING, comparing the performance of SCENIC and the GRANet implementation to the results reported in\cite{zhouGRANetGraphResidual2025} and \parencite{pratapaBenchmarkingAlgorithmsGene2020}.
 
-The evaluation framework for the project will use a confusion matrix, allowing for 4 classification metrics to be calculated: accuracy, precision, recall and a recall-oriented F-score given that missing
-a diagnosis of MS may delay medical intervention.
+The evaluation framework for the classification component will use a confusion matrix, allowing for 4 classification metrics to be calculated: accuracy, precision, recall and a recall-oriented F-score given that missing a diagnosis of MS may delay medical intervention.
 
 \section{Extensions and Further Work}
 If the success criteria are met, I will attempt to implement the following extensions:
@@ -115,23 +111,23 @@ with fidelity tests.
 \textbf{Michaelmas Term} \\ 
 \begin{itemize}
     \item \textbf{13/10/26--26/10/26} \\
-Background reading on mGATs, GATs and the hdWGCNA package and set up code repository.
+Background reading on mGATs, GATs and the SCENIC package and set up code repository.
 
 \textbf{Milestone}: Production of a report explaining the theory about these model and the reason for their inclusion in the project.
  
     \item \textbf{(27/10/26--9/11/26)} \\
-Read up on PyTorch and decide on the network architecture for the three models.
+Read up on PyTorch and decide on the network architecture for the three models. Re-implement the GRANet architecture. 
 
-\textbf{Milestone}: Initial diagrams for each network architecture and produce basic ML examples in PyTorch.
+\textbf{Milestone}: Initial diagrams for each classification network architecture and produce the GRANet model.
     \item \textbf{10/11/26--23/11/26} \\
-Process the snRNA-seq dataset using the py-hdWGCNA framework and split data into training, validation and testing datasets at a patient level. 
+Process the snRNA-seq dataset using the SCENIC framework  and GRANet architecture and split data into training, validation and testing datasets at a patient level. 
 
 \textbf{Milestone}: Datasets should be ready for training.
 
     \item \textbf{24/11/26--7/12/26} \\
 Implement the mGAT, GAT and MLP models, using the training dataset. 
 
-\textbf{Milestone}: 3 working models which are able to perform the classification task.
+\textbf{Milestone}: The GRANet and SCENIC framework are trained and evaluated. 3 working models which are able to perform the classification task. 
 \end{itemize}
 \textbf{Winter Break} \\ 
 \begin{itemize}

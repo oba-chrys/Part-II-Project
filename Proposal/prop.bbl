@@ -19,6 +19,121 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{aibarSCENICSinglecellRegulatory2017}{article}{}{}
+      \name{author}{14}{}{%
+        {{hash=0ca1f4e828a4b6a7af473f35d8c53c1f}{%
+           family={Aibar},
+           familyi={A\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b4e2da2375aded4f3454b06088653613}{%
+           family={González-Blas},
+           familyi={G\bibinithyphendelim B\bibinitperiod},
+           given={Carmen\bibnamedelima Bravo},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=7b6459cfb86bb0dd689572c1c8367b4a}{%
+           family={Moerman},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3e754359bd03f4481369b08686afdc61}{%
+           family={Huynh-Thu},
+           familyi={H\bibinithyphendelim T\bibinitperiod},
+           given={Vân\bibnamedelima Anh},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=29d64702a4038e511ba3e25e044d2a40}{%
+           family={Imrichova},
+           familyi={I\bibinitperiod},
+           given={Hana},
+           giveni={H\bibinitperiod}}}%
+        {{hash=bf20f909d793fe85b8953b79aa1fc0f8}{%
+           family={Hulselmans},
+           familyi={H\bibinitperiod},
+           given={Gert},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2957d74ec0bc6b3bc165ae7e82d11e16}{%
+           family={Rambow},
+           familyi={R\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7138c5475649722d96aac0e44a5b7ddf}{%
+           family={Marine},
+           familyi={M\bibinitperiod},
+           given={Jean-Christophe},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=04d0aa9fc26c1881b5d9f8abbcf7df51}{%
+           family={Geurts},
+           familyi={G\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=63cb8b6ea98ee7c565abdad542c61e32}{%
+           family={Aerts},
+           familyi={A\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=be91daffa68951f9a4d7fe9ae6da4725}{%
+           family={Van\bibnamedelimb Den\bibnamedelima Oord},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Joost},
+           giveni={J\bibinitperiod}}}%
+        {{hash=00465568c6992d259ef910a4426de1bd}{%
+           family={Atak},
+           familyi={A\bibinitperiod},
+           given={Zeynep\bibnamedelima Kalender},
+           giveni={Z\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=d0e5f75b52e59d1199c085b4fbec4f48}{%
+           family={Wouters},
+           familyi={W\bibinitperiod},
+           given={Jasper},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d4b838c181f10f1458ce8b19e932af66}{%
+           family={Aerts},
+           familyi={A\bibinitperiod},
+           given={Stein},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{53e79f8fcdbd92a8dc030ba34ca07bc5}
+      \strng{fullhash}{57901803a1cc320b8a5ef1289d6d089e}
+      \strng{fullhashraw}{57901803a1cc320b8a5ef1289d6d089e}
+      \strng{bibnamehash}{53e79f8fcdbd92a8dc030ba34ca07bc5}
+      \strng{authorbibnamehash}{53e79f8fcdbd92a8dc030ba34ca07bc5}
+      \strng{authornamehash}{53e79f8fcdbd92a8dc030ba34ca07bc5}
+      \strng{authorfullhash}{57901803a1cc320b8a5ef1289d6d089e}
+      \strng{authorfullhashraw}{57901803a1cc320b8a5ef1289d6d089e}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1548-7091, 1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Nat Methods}
+      \field{shorttitle}{{{SCENIC}}}
+      \field{title}{{{SCENIC}}: Single-Cell Regulatory Network Inference and Clustering}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1083\bibrangedash 1086}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/nmeth.4463
+      \endverb
+      \verb{file}
+      \verb C:\Users\Tosin Bea\Zotero\storage\XM6ZD4ZI\Aibar et al. - 2017 - SCENIC single-cell regulatory network inference and clustering.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nmeth.4463
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nmeth.4463
+      \endverb
+    \endentry
     \entry{alarconMetabolicEarlyWarning2025}{online}{}{}
       \name{author}{3}{}{%
         {{hash=16939104c943dcdec1619eebf32320c1}{%
@@ -138,6 +253,156 @@
       \endverb
       \verb{url}
       \verb https://link.springer.com/10.1007/s11910-024-01354-x
+      \endverb
+    \endentry
+    \entry{avasthiHarnessingGenotypephenotypeNonlinearity2023}{online}{}{}
+      \name{author}{3}{}{%
+        {{hash=cac52c74d510293e18bf0b514b2aec89}{%
+           family={Avasthi},
+           familyi={A\bibinitperiod},
+           given={Prachee},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c0133f89b58dd7ceadd5e80b50e5233b}{%
+           family={Mets},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=e6ad16920fd5e32c30927a0b1b2f36df}{%
+           family={York},
+           familyi={Y\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=c0cee82ef6060431cf300b0570345148}{%
+           family={Celebi},
+           familyi={C\bibinitperiod},
+           given={Feridun\bibnamedelima Mert},
+           giveni={F\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3602783ac3d3f3e87d60bb34dc81dd50}{%
+           family={Hochstrasser},
+           familyi={H\bibinitperiod},
+           given={Megan\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Genetics: Decoding evolutionary drivers across biology}%
+      }
+      \strng{namehash}{3a23f6c58231213fc2e687ee5ff96ec5}
+      \strng{fullhash}{3a23f6c58231213fc2e687ee5ff96ec5}
+      \strng{fullhashraw}{3a23f6c58231213fc2e687ee5ff96ec5}
+      \strng{bibnamehash}{3a23f6c58231213fc2e687ee5ff96ec5}
+      \strng{authorbibnamehash}{3a23f6c58231213fc2e687ee5ff96ec5}
+      \strng{authornamehash}{3a23f6c58231213fc2e687ee5ff96ec5}
+      \strng{authorfullhash}{3a23f6c58231213fc2e687ee5ff96ec5}
+      \strng{authorfullhashraw}{3a23f6c58231213fc2e687ee5ff96ec5}
+      \strng{nameabibnamehash}{21982efd4946bc9654bc3188a4dbe7a5}
+      \strng{nameanamehash}{21982efd4946bc9654bc3188a4dbe7a5}
+      \strng{nameafullhash}{21982efd4946bc9654bc3188a4dbe7a5}
+      \strng{nameafullhashraw}{21982efd4946bc9654bc3188a4dbe7a5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A core focus of genetics is understanding the relationship between genetic variation (genotypes) and biological traits (phenotypes). Efforts as diverse as tracing the evolution of complex phenotypes, identifying disease-causing genes, and understanding how organisms are built are all contingent on deciphering the mapping between genotype and phenotype. Our results show that assumptions underlying many current genotype-phenotype models (namely that genotypes are additive and linear) do not reflect the nonlinearities present in biology. Non-additive relationships between genes are well known — one gene can influence the effects of another (epistasis), and some genes have multiple phenotypic effects (pleiotropy). By accounting for such nonlinear interactions between genes and phenotypes, we show that we can accurately predict suites of simulated phenotypes. These findings should be of interest to anyone whose work relies on accurately modeling genotype-phenotype relationships, especially those in the fields of quantitative, population, and human genetics. Additionally, we are excited to get feedback on how this work might help contribute to these fields and possible refinements or extensions of its utility.}
+      \field{day}{22}
+      \field{eprinttype}{Astera Institute}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{nameatype}{collaborator}
+      \field{pubstate}{prepublished}
+      \field{title}{Harnessing Genotype-Phenotype Nonlinearity to Accelerate Biological Prediction}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.57844/ARCADIA-5953-995F
+      \endverb
+      \verb{urlraw}
+      \verb https://thestacks.org/publications/result-nonlinear-phenotypes
+      \endverb
+      \verb{url}
+      \verb https://thestacks.org/publications/result-nonlinear-phenotypes
+      \endverb
+      \keyw{FOS: Biological sciences}
+    \endentry
+    \entry{badia-i-mompelGeneRegulatoryNetwork2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=d667dc0d61da17124cd7e7da30027b40}{%
+           family={Badia-i-Mompel},
+           familyi={B\bibinithyphendelim i\bibinithyphendelim M\bibinitperiod},
+           given={Pau},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1137358fed627046f3dac278c0c6c6a6}{%
+           family={Wessels},
+           familyi={W\bibinitperiod},
+           given={Lorna},
+           giveni={L\bibinitperiod}}}%
+        {{hash=78f0db49ed2f17a2d444adb8da139bcc}{%
+           family={Müller-Dott},
+           familyi={M\bibinithyphendelim D\bibinitperiod},
+           given={Sophia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4b0bbbc38eeba87dd54960a5ad09924f}{%
+           family={Trimbour},
+           familyi={T\bibinitperiod},
+           given={Rémi},
+           giveni={R\bibinitperiod}}}%
+        {{hash=12895f01962eccc96c26269fb631c512}{%
+           family={Ramirez\bibnamedelima Flores},
+           familyi={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Ricardo\bibnamedelima O.},
+           giveni={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=9c3cbc22c090536e1fc22522b14249fa}{%
+           family={Argelaguet},
+           familyi={A\bibinitperiod},
+           given={Ricard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=db9c0fd92e5f4a78c7a2788cc1bae9c3}{%
+           family={Saez-Rodriguez},
+           familyi={S\bibinithyphendelim R\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{287c9895ddd9d74be5c88b1fb8e0ab25}
+      \strng{fullhash}{3f5b91648d5aa24a8dfe7cbf7d29d055}
+      \strng{fullhashraw}{3f5b91648d5aa24a8dfe7cbf7d29d055}
+      \strng{bibnamehash}{287c9895ddd9d74be5c88b1fb8e0ab25}
+      \strng{authorbibnamehash}{287c9895ddd9d74be5c88b1fb8e0ab25}
+      \strng{authornamehash}{287c9895ddd9d74be5c88b1fb8e0ab25}
+      \strng{authorfullhash}{3f5b91648d5aa24a8dfe7cbf7d29d055}
+      \strng{authorfullhashraw}{3f5b91648d5aa24a8dfe7cbf7d29d055}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1471-0056, 1471-0064}
+      \field{journaltitle}{Nature Reviews Genetics}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Nat Rev Genet}
+      \field{title}{Gene Regulatory Network Inference in the Era of Single-Cell Multi-Omics}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{24}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{739\bibrangedash 754}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1038/s41576-023-00618-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41576-023-00618-5
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41576-023-00618-5
       \endverb
     \endentry
     \entry{zotero-item-47}{dataset}{}{}
@@ -543,6 +808,73 @@
       \verb https://www.tandfonline.com/doi/full/10.2217/epi-2022-0065
       \endverb
     \endentry
+    \entry{liuMultiGNNGraphNeural2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=42a3cf29f5e586a9fe48f39607ccb84f}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Dongbo},
+           giveni={D\bibinitperiod}}}%
+        {{hash=dd060cd064f8f607eb1bee6712820270}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8b7342aa6149c3cde951d5e4afb30c54}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jianxin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5d5b88ee96d178c751b65f1be0225eac}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yeru},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a576dd015e7d15ceb43f8374c517208d}
+      \strng{fullhash}{161ee5f67c9ebe60376d2f9213381bb5}
+      \strng{fullhashraw}{161ee5f67c9ebe60376d2f9213381bb5}
+      \strng{bibnamehash}{a576dd015e7d15ceb43f8374c517208d}
+      \strng{authorbibnamehash}{a576dd015e7d15ceb43f8374c517208d}
+      \strng{authornamehash}{a576dd015e7d15ceb43f8374c517208d}
+      \strng{authorfullhash}{161ee5f67c9ebe60376d2f9213381bb5}
+      \strng{authorfullhashraw}{161ee5f67c9ebe60376d2f9213381bb5}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Gene regulatory networks (GRNs) describe the interactions between transcription factors (TFs) and their target genes, playing a crucial role in understanding gene functions and how cells regulate gene expression under different conditions. Recent advancements in multi-omics technologies have provided new opportunities for more comprehensive GRN inference. Among these data types, gene expression and chromatin accessibility are particularly important, as they are key to distinguishing between direct and indirect regulatory relationships. However, existing methods primarily rely on gene expression data while neglecting biological information such as chromatin accessibility, leading to an increased occurrence of false positives in the inference results. To address the limitations of existing approaches, we propose MultiGNN, a supervised framework based on graph neural networks (GNNs). Unlike conventional GRN inference methods, MultiGNN leverages features extracted from both gene expression and chromatin accessibility data to predict regulatory interactions between genes. Experimental results demonstrate that MultiGNN consistently outperforms other methods across seven datasets. Additionally, ablation studies validate the effectiveness of our multi-omics feature integration strategy, offering a new direction for more accurate GRN inference.}
+      \field{day}{19}
+      \field{issn}{2079-3197}
+      \field{journaltitle}{Computation}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{shortjournal}{Computation}
+      \field{shorttitle}{{{MultiGNN}}}
+      \field{title}{{{MultiGNN}}: {{A Graph Neural Network Framework}} for {{Inferring Gene Regulatory Networks}} from {{Single-Cell Multi-Omics Data}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{124}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/computation13050124
+      \endverb
+      \verb{file}
+      \verb C:\Users\Tosin Bea\Zotero\storage\5ELYBKEV\Liu et al. - 2025 - MultiGNN A Graph Neural Network Framework for Inferring Gene Regulatory Networks from Single-Cell M.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2079-3197/13/5/124
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2079-3197/13/5/124
+      \endverb
+    \endentry
     \entry{lueckenCurrentBestPractices2019}{article}{}{}
       \name{author}{2}{}{%
         {{hash=af48e14485c5adf6b966fe5b15460c6c}{%
@@ -865,6 +1197,72 @@
       \verb http://biorxiv.org/lookup/doi/10.1101/2022.04.06.487263
       \endverb
     \endentry
+    \entry{pratapaBenchmarkingAlgorithmsGene2020}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4060ad1e0e2ee469449aae926bf00e70}{%
+           family={Pratapa},
+           familyi={P\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b6e4b0f40b4e8fd6210d6d8b631ad230}{%
+           family={Jalihal},
+           familyi={J\bibinitperiod},
+           given={Amogh\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=bc8f4b3358bf8de60e5d56f9dd758254}{%
+           family={Law},
+           familyi={L\bibinitperiod},
+           given={Jeffrey\bibnamedelima N.},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=77f1a6430ece138f094ccf59a8fcc12e}{%
+           family={Bharadwaj},
+           familyi={B\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3cc0a0925b04af7ef8eb0dc79208d86d}{%
+           family={Murali},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5732a301c70c62b2974c75b5b38f193b}
+      \strng{fullhash}{6674a852236df22568f7f188fc7e70ea}
+      \strng{fullhashraw}{6674a852236df22568f7f188fc7e70ea}
+      \strng{bibnamehash}{5732a301c70c62b2974c75b5b38f193b}
+      \strng{authorbibnamehash}{5732a301c70c62b2974c75b5b38f193b}
+      \strng{authornamehash}{5732a301c70c62b2974c75b5b38f193b}
+      \strng{authorfullhash}{6674a852236df22568f7f188fc7e70ea}
+      \strng{authorfullhashraw}{6674a852236df22568f7f188fc7e70ea}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1548-7091, 1548-7105}
+      \field{journaltitle}{Nature Methods}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Nat Methods}
+      \field{title}{Benchmarking Algorithms for Gene Regulatory Network Inference from Single-Cell Transcriptomic Data}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{17}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{147\bibrangedash 154}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41592-019-0690-6
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41592-019-0690-6
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41592-019-0690-6
+      \endverb
+    \endentry
     \entry{ravindraDiseaseStatePrediction2020}{online}{}{}
       \name{author}{5}{}{%
         {{hash=4cfa122cf58b13c17514d6a88d5d852d}{%
@@ -1056,71 +1454,6 @@
       \verb https://linkinghub.elsevier.com/retrieve/pii/B9780128096338202902
       \endverb
     \endentry
-    \entry{vandamGeneCoexpressionAnalysis2017}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=3117fc00b393a9d8ff1ab50931efa8b0}{%
-           family={Van\bibnamedelima Dam},
-           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={Sipko},
-           giveni={S\bibinitperiod}}}%
-        {{hash=74c06c9ac256bfb3f0d9371f4d56e518}{%
-           family={Võsa},
-           familyi={V\bibinitperiod},
-           given={Urmo},
-           giveni={U\bibinitperiod}}}%
-        {{hash=6ae8d06059e53f05c57f5895385f1f8f}{%
-           family={Van\bibnamedelimb Der\bibnamedelima Graaf},
-           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={Adriaan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=940ca1f1f12dca6767f77c75027b7c00}{%
-           family={Franke},
-           familyi={F\bibinitperiod},
-           given={Lude},
-           giveni={L\bibinitperiod}}}%
-        {{hash=667e5192a8d47613c99b316c4d7bf9c2}{%
-           family={De\bibnamedelima Magalhães},
-           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={João\bibnamedelima Pedro},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{21365832b22c03f7f09800f26e78f915}
-      \strng{fullhash}{b87808a261016062b34a0ba48020eb5c}
-      \strng{fullhashraw}{b87808a261016062b34a0ba48020eb5c}
-      \strng{bibnamehash}{21365832b22c03f7f09800f26e78f915}
-      \strng{authorbibnamehash}{21365832b22c03f7f09800f26e78f915}
-      \strng{authornamehash}{21365832b22c03f7f09800f26e78f915}
-      \strng{authorfullhash}{b87808a261016062b34a0ba48020eb5c}
-      \strng{authorfullhashraw}{b87808a261016062b34a0ba48020eb5c}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{10}
-      \field{issn}{1467-5463, 1477-4054}
-      \field{journaltitle}{Briefings in Bioinformatics}
-      \field{langid}{english}
-      \field{month}{1}
-      \field{shortjournal}{Brief Bioinform}
-      \field{title}{Gene Co-Expression Analysis for Functional Classification and Gene–Disease Predictions}
-      \field{urlday}{14}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
-      \field{year}{2017}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{bbw139}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1093/bib/bbw139
-      \endverb
-      \verb{urlraw}
-      \verb https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbw139
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbw139
-      \endverb
-    \endentry
     \entry{velickovicGraphAttentionNetworks2017}{online}{}{}
       \name{author}{6}{}{%
         {{hash=b1208a71c9b067bcef8fb29c15a09b5d}{%
@@ -1278,6 +1611,134 @@
       \endverb
       \verb{url}
       \verb https://academic.oup.com/bioinformatics/article/38/8/2178/6528315
+      \endverb
+    \endentry
+    \entry{yuanInferringGeneRegulatory2025}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=507886dbb5d877e2ed1b33c0a1a2fb10}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Qiuyue},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=d7b51b983df6a815af2d7caf3a8b77c1}{%
+           family={Duren},
+           familyi={D\bibinitperiod},
+           given={Zhana},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{3e7c2f0a1bbd5d40fde933d7c79440cf}
+      \strng{fullhash}{3e7c2f0a1bbd5d40fde933d7c79440cf}
+      \strng{fullhashraw}{3e7c2f0a1bbd5d40fde933d7c79440cf}
+      \strng{bibnamehash}{3e7c2f0a1bbd5d40fde933d7c79440cf}
+      \strng{authorbibnamehash}{3e7c2f0a1bbd5d40fde933d7c79440cf}
+      \strng{authornamehash}{3e7c2f0a1bbd5d40fde933d7c79440cf}
+      \strng{authorfullhash}{3e7c2f0a1bbd5d40fde933d7c79440cf}
+      \strng{authorfullhashraw}{3e7c2f0a1bbd5d40fde933d7c79440cf}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Existing methods for gene regulatory network (GRN) inference rely on gene expression data alone or on lower resolution bulk data. Despite the recent integration of chromatin accessibility and RNA sequencing data, learning complex mechanisms from limited independent data points still presents a daunting challenge. Here we present LINGER (Lifelong neural network for gene regulation), a machine-learning method to infer GRNs from single-cell paired gene expression and chromatin accessibility data. LINGER incorporates atlas-scale external bulk data across diverse cellular contexts and prior knowledge of transcription factor motifs as a manifold regularization. LINGER achieves a fourfold to sevenfold relative increase in accuracy over existing methods and reveals a complex regulatory landscape of genome-wide association studies, enabling enhanced interpretation of disease-associated variants and genes. Following the GRN inference from reference single-cell multiome data, LINGER enables the estimation of transcription factor activity solely from bulk or single-cell gene expression data, leveraging the abundance of available gene expression data to identify driver regulators from case-control studies.}
+      \field{issn}{1087-0156, 1546-1696}
+      \field{journaltitle}{Nature Biotechnology}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{Nat Biotechnol}
+      \field{title}{Inferring Gene Regulatory Networks from Single-Cell Multiome Data Using Atlas-Scale External Data}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{43}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{247\bibrangedash 257}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/s41587-024-02182-7
+      \endverb
+      \verb{file}
+      \verb C:\Users\Tosin Bea\Zotero\storage\GYLV4DKD\Yuan and Duren - 2025 - Inferring gene regulatory networks from single-cell multiome data using atlas-scale external data.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41587-024-02182-7
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41587-024-02182-7
+      \endverb
+    \endentry
+    \entry{zhouGRANetGraphResidual2025}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=fb2b9a8e29c81926a4f01b7835d49d89}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Junliang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dc77cea894fef65c275c0783b26846f8}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Ningji},
+           giveni={N\bibinitperiod}}}%
+        {{hash=4609fb1e214b281d44a2f9ab46d6d358}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yanjun},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b7694b1d86b76a94cf54f49429a0d839}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9de0f30c6ac90cbd3386559135ddad36}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Guoyin},
+           giveni={G\bibinitperiod}}}%
+        {{hash=d0d5a12b1f5bae45ea7780158b3b35c8}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{3bba773dc022dd8af6e018001b272b8e}
+      \strng{fullhash}{26f7b70e9af43c425e88e76b42f6c3ba}
+      \strng{fullhashraw}{26f7b70e9af43c425e88e76b42f6c3ba}
+      \strng{bibnamehash}{3bba773dc022dd8af6e018001b272b8e}
+      \strng{authorbibnamehash}{3bba773dc022dd8af6e018001b272b8e}
+      \strng{authornamehash}{3bba773dc022dd8af6e018001b272b8e}
+      \strng{authorfullhash}{26f7b70e9af43c425e88e76b42f6c3ba}
+      \strng{authorfullhashraw}{26f7b70e9af43c425e88e76b42f6c3ba}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract The reconstruction of gene regulatory networks (GRNs) is crucial for uncovering regulatory relationships between genes and understanding the mechanisms of gene expression within cells. With advancements in single-cell RNA sequencing (scRNA-seq) technology, researchers have sought to infer GRNs at the single-cell level. However, existing methods primarily construct global models encompassing entire gene networks. While these approaches aim to capture genome-wide interactions, they frequently suffer from decreased accuracy due to challenges such as network scale, noise interference, and data sparsity. This study proposes GRANet (Graph Residual Attention Network), a novel deep learning framework for inferring GRNs. GRANet leverages residual attention mechanisms to adaptively learn complex gene regulatory relationships while integrating multi-dimensional biological features for a more comprehensive inference process. We evaluated GRANet across multiple datasets, benchmarking its performance against state-of-the-art methods. The experimental results demonstrate that GRANet consistently outperforms existing methods in GRN inference tasks. In addition, in our case study on EGR1, CBFB, and ELF1, GRANet achieved high prediction accuracy, effectively identifying both known and novel regulatory interactions. These findings highlight GRANet’s potential to advance research in gene regulation and disease mechanisms.}
+      \field{day}{2}
+      \field{issn}{1467-5463, 1477-4054}
+      \field{journaltitle}{Briefings in Bioinformatics}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{4}
+      \field{shorttitle}{{{GRANet}}}
+      \field{title}{{{GRANet}}: A Graph Residual Attention Network for Gene Regulatory Network Inference}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{26}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{bbaf349}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/bib/bbaf349
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/bib/article/doi/10.1093/bib/bbaf349/8212017
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/bib/article/doi/10.1093/bib/bbaf349/8212017
       \endverb
     \endentry
   \enddatalist

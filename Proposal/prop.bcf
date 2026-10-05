@@ -2378,21 +2378,29 @@
     <bcf:citekey order="3" intorder="2">lesterEmergenceDevelopmentalBehavioral2022</bcf:citekey>
     <bcf:citekey order="4" intorder="1">lueckenCurrentBestPractices2019</bcf:citekey>
     <bcf:citekey order="5" intorder="1">macnairSingleNucleiRNAseq2022</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">vandamGeneCoexpressionAnalysis2017</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">sewellGNNsNetworkClassification2025</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">velickovicGraphAttentionNetworks2017</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">ravindraDiseaseStatePrediction2020</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">zotero-item-47</bcf:citekey>
-    <bcf:citekey order="10" intorder="2">elkjaerDatasetArticleSingleCell2024</bcf:citekey>
-    <bcf:citekey order="10" intorder="3">macnairSingleNucleiRNAseq2023</bcf:citekey>
-    <bcf:citekey order="10" intorder="4">zotero-item-33</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">bongiovanniMPXGATAttentionBased2024</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">luzhnicaGraphClassificationNetworks2019</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">ravindraDiseaseStatePrediction2020</bcf:citekey>
-    <bcf:citekey order="13" intorder="2">tieriNetworkInferenceReconstruction2019</bcf:citekey>
-    <bcf:citekey order="13" intorder="3">velickovicGraphAttentionNetworks2017</bcf:citekey>
-    <bcf:citekey order="13" intorder="4">xingMultilevelAttentionGraph2022</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">fengDEGREEDecompositionBased2023</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">badia-i-mompelGeneRegulatoryNetwork2023</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">liuMultiGNNGraphNeural2025</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">yuanInferringGeneRegulatory2025</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">aibarSCENICSinglecellRegulatory2017</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">sewellGNNsNetworkClassification2025</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">velickovicGraphAttentionNetworks2017</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">ravindraDiseaseStatePrediction2020</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">avasthiHarnessingGenotypephenotypeNonlinearity2023</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">zhouGRANetGraphResidual2025</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">zotero-item-47</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">elkjaerDatasetArticleSingleCell2024</bcf:citekey>
+    <bcf:citekey order="14" intorder="3">macnairSingleNucleiRNAseq2023</bcf:citekey>
+    <bcf:citekey order="14" intorder="4">zotero-item-33</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">bongiovanniMPXGATAttentionBased2024</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">luzhnicaGraphClassificationNetworks2019</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">ravindraDiseaseStatePrediction2020</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">tieriNetworkInferenceReconstruction2019</bcf:citekey>
+    <bcf:citekey order="17" intorder="3">velickovicGraphAttentionNetworks2017</bcf:citekey>
+    <bcf:citekey order="17" intorder="4">xingMultilevelAttentionGraph2022</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">pratapaBenchmarkingAlgorithmsGene2020</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">zhouGRANetGraphResidual2025</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">pratapaBenchmarkingAlgorithmsGene2020</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">fengDEGREEDecompositionBased2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
